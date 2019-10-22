@@ -1,0 +1,120 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+YAN_ideas = {                   
+	start = {
+		manpower_recovery_speed = 0.2
+		leader_land_fire = 1
+	}
+	
+	bonus = {
+		possible_mercenaries = 0.25
+	}
+	
+	trigger = {
+			tag = YAN
+	}
+	free = yes		#will be added at load.
+
+	YAN_one = {
+		trade_efficiency = 0.1
+	}
+	YAN_two = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	YAN_three = {
+		army_tradition = 0.5
+	}
+	YAN_four = {
+		infantry_power = 0.2
+	}
+	YAN_five = {
+		shock_damage_received = -0.1
+	}
+	YAN_six = {
+		global_manpower_modifier = 0.15
+	}
+	YAN_seven = {
+		max_states = 3
+	}
+}
+
+CHC_ideas = {                   
+	start = {
+		naval_morale = 0.1
+		global_ship_cost = -0.15
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.2
+	}
+	
+	trigger = {
+			tag = CHC
+	}
+	free = yes		
+	CHC_one = {
+		land_morale = 0.1
+	}
+	CHC_two = {
+		global_tax_modifier = 0.2
+	}
+	CHC_three = {
+		fire_damage = 0.15
+	}
+	CHC_four = {
+		diplomatic_upkeep = 2
+	}
+	CHC_five = {
+		trade_efficiency = 0.1
+	}
+	CHC_six = {
+		global_manpower_modifier = 0.25
+	}
+	CHC_seven = {
+		reinforce_speed = 0.15
+	}
+}
+
+NNG_ideas = {                   
+	start = {
+		build_cost = -0.1
+		num_accepted_cultures = 2
+	}
+	
+	bonus = {
+		advisor_cost = -0.1
+	}
+	
+	trigger = {
+			tag = NNG
+	}
+	free = yes		
+	NNG_one = {
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}
+	NNG_two = {
+		development_cost = -0.1
+	}
+	NNG_three = {
+		land_morale = 0.15
+	}
+	NNG_four = {
+		possible_mil_policy = 1
+	}
+	NNG_five = {
+		prestige = 1
+	}
+	NNG_six = {
+		artillery_power = 0.1
+	}
+	NNG_seven = {
+		global_manpower_modifier = 0.2
+	}
+}
