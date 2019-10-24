@@ -5,6 +5,8 @@ primary_culture = japanese
 religion = shinto
 technology_group = chinese
 capital = 1021	# Settsu
+historical_friend = OUC
+historical_friend = YMN
 
 1330.1.1 = {
 	monarch = {
