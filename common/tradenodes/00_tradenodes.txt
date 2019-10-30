@@ -338,7 +338,6 @@ lhasa={
 }
 chengdu={
 	location=679
-	inland=yes
 	outgoing={
 		name="canton"
 		path={

@@ -3,6 +3,7 @@
 owner = CGS
 controller = CGS
 add_core = CGS
+add_core = CYI
 culture = yi
 religion = animism
 capital = "Umung"
