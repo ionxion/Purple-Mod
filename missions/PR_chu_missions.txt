@@ -95,6 +95,43 @@ PR_chu_missions2 = {
 	}
 }
 
+PR_chu_missions4 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = CHC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_chu_missions4_desc = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { PR_chu_missions2_desc }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = chuannan_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			chuannan_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = { 
+			accepted_culture = yi
+		}
+	}
+}
+
 PR_chu_missions3 = {
 
 	slot = 5
@@ -117,6 +154,7 @@ PR_chu_missions3 = {
 				province_id = 4931
 				province_id = 2172
 				province_id = 4930
+				province_id = 4213
 			}
 		}
 		
@@ -130,6 +168,10 @@ PR_chu_missions3 = {
 				development = 10
 			}
 			2172 = {
+				owned_by = ROOT
+				development = 10
+			}
+			4213 = {
 				owned_by = ROOT
 				development = 10
 			}
