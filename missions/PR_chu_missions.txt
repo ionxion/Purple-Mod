@@ -8,6 +8,7 @@ PR_chu_missions1 = {
 		tag = CHC
 		NOT = { map_setup = map_setup_random }
 	}
+	has_country_shield = yes
 	
 	PR_chu_missions1_desc = {
 		icon = mission_unite_home_region
@@ -18,7 +19,7 @@ PR_chu_missions1 = {
 			OR = {
 				area = chuannan_area
 			}
-			NOT = { owned_by = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
@@ -35,7 +36,124 @@ PR_chu_missions1 = {
 		}
 	}
 }
-			
+
+PR_chu_missions2 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = CHC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_chu_missions2_desc = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { PR_chu_missions1_desc }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = kham_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			kham_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = { 
+			if = {
+				limit = {
+					679 = {
+						province_has_center_of_trade_of_level = 1
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+				}
+				679 = {
+					add_center_of_trade_level = 1
+				}
+			}
+			if = {
+				limit = {
+					2133 = {
+						province_has_center_of_trade_of_level = 1
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+				}
+				2133 = {
+					add_center_of_trade_level = 1
+				}
+			}
+		}
+	}
+}
+
+PR_chu_missions3 = { #test why this isn't working later
+
+	slot = 5
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = CHC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_chu_missions3_desc = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4931
+				province_id = 2172
+				province_id = 4930
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			4931 = {
+				owned_by = ROOT
+				development = 10
+			}
+			4930 = {
+				owned_by = ROOT
+				development = 8
+			}
+			2172 = {
+				owned_by = ROOT
+				development = 10
+			}
+		}
+		
+		effect = { 
+			chuanbei_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			huguang_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+}
 
 chu_missions = {
 	slot = 5
