@@ -127,7 +127,7 @@ PR_chu_missions4 = {
 		}
 		
 		effect = { 
-			accepted_culture = yi
+			add_accepted_culture = yi
 		}
 	}
 }
