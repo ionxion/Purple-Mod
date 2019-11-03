@@ -55,12 +55,7 @@ country_decisions = {
 		effect = {
 			change_tag = PR2
 			swap_non_generic_missions = yes
-			if = {
-				limit = {
-					NOT = { government_rank = 2 }
-				}
-				set_government_rank = 3
-			}
+			set_government_rank = 3
 			add_prestige = 25
 			add_country_modifier = {
 				name = "centralization_modifier"
