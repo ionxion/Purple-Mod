@@ -21,30 +21,30 @@ YAN_ideas = {
 	}
 	free = yes		#will be added at load.
 
-	YAN_one = {
+	YAN_1 = {
 		trade_efficiency = 0.1
 	}
-	YAN_two = {
+	YAN_2 = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	YAN_three = {
+	YAN_3 = {
 		army_tradition = 0.5
 	}
-	YAN_four = {
+	YAN_4 = {
 		infantry_power = 0.2
 	}
-	YAN_five = {
+	YAN_5 = {
 		shock_damage_received = -0.1
 	}
-	YAN_six = {
+	YAN_6 = {
 		global_manpower_modifier = 0.15
 	}
-	YAN_seven = {
+	YAN_7 = {
 		max_states = 3
 	}
 }
 
-CHC_ideas = {                   
+NNG_ideas = {                   
 	start = {
 		naval_morale = 0.1
 		global_ship_cost = -0.15
@@ -55,33 +55,33 @@ CHC_ideas = {
 	}
 	
 	trigger = {
-			tag = CHC
+			tag = NNG
 	}
 	free = yes		
-	CHC_one = {
+	NNG_1 = {
 		land_morale = 0.1
 	}
-	CHC_two = {
+	NNG_2 = {
 		global_tax_modifier = 0.2
 	}
-	CHC_three = {
+	NNG_3 = {
 		fire_damage = 0.15
 	}
-	CHC_four = {
+	NNG_4 = {
 		diplomatic_upkeep = 2
 	}
-	CHC_five = {
+	NNG_5 = {
 		trade_efficiency = 0.1
 	}
-	CHC_six = {
+	NNG_6 = {
 		global_manpower_modifier = 0.25
 	}
-	CHC_seven = {
+	NNG_7 = {
 		reinforce_speed = 0.15
 	}
 }
 
-NNG_ideas = {                   
+CHC_ideas = {                   
 	start = {
 		build_cost = -0.1
 		num_accepted_cultures = 2
@@ -92,29 +92,66 @@ NNG_ideas = {
 	}
 	
 	trigger = {
-			tag = NNG
+			tag = CHC
 	}
 	free = yes		
-	NNG_one = {
+	CHC_1 = {
 		technology_cost = -0.05
 		idea_cost = -0.05
 	}
-	NNG_two = {
+	CHC_2 = {
 		development_cost = -0.1
 	}
-	NNG_three = {
+	CHC_3 = {
 		land_morale = 0.15
 	}
-	NNG_four = {
+	CHC_4 = {
 		possible_mil_policy = 1
 	}
-	NNG_five = {
+	CHC_5 = {
 		prestige = 1
 	}
-	NNG_six = {
+	CHC_6 = {
 		artillery_power = 0.1
 	}
-	NNG_seven = {
+	CHC_7 = {
 		global_manpower_modifier = 0.2
+	}
+}
+
+PR2_ideas = { 
+	start = {
+		build_cost = -0.1
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		tolerance_heathen = 2
+	}
+	free = yes
+	PR2_1 = {
+		technology_cost = -0.1
+		advisor_cost = -0.1
+	}
+	PR2_2 = {
+		development_cost = -0.1
+	}
+	PR2_3 = {
+		land_morale = 0.1
+		infantry_power = 0.1
+	}
+	PR2_4 = {
+		prestige = 0.5
+		army_tradition = 0.5
+	}
+	PR2_5 = {
+		global_manpower_modifier = 0.25
+	}
+	PR2_6 = {
+		num_accepted_cultures = 3
+		promote_culture_cost = -0.5
+	}
+	PR2_7 = {
+		fire_damage = 0.1
 	}
 }
