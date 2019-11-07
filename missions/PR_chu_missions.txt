@@ -321,6 +321,9 @@ PR_chu_missions7 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 4198
+				NOT = {
+					is_core = ROOT
+				}
 			}
 		}
 		
