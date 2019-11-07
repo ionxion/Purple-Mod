@@ -33,3 +33,128 @@ PR_ning_missions1 = {
 		}
 	}
 }
+
+PR_ning_missions2 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = NNG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions2_desc = {
+		icon = mission_assemble_an_army
+		required_missions = { PR_ning_missions1_desc }
+		position = 2
+		
+		trigger = {
+			WUU = {	
+				AND = {
+					is_subject_of = NNG
+					NOT = {
+						liberty_desire = 25
+					}
+				}
+			}
+		}
+		
+		effect = { 
+			1821 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			2145 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}		
+			1822 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}			
+		}
+	}
+}
+
+PR_ning_missions3 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = NNG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions3_desc = {
+		icon = mission_assemble_an_army
+		required_missions = { PR_ning_missions2_desc }
+		position = 3
+		
+		provinces_to_highlight = {
+			province_id = 685
+			NOT = { is_core = ROOT }
+		}
+		
+		trigger = {
+			685 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = { 
+			anhui_area = {
+				add_permanent_claim = ROOT
+			}		
+		}
+	}
+}
+
+PR_ning_missions4 = {
+
+	slot = 5
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = NNG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions4_desc = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 4
+		
+		trigger = {
+			navy_size_percentage = 1
+		}
+		
+		effect = { 
+			if = {
+				limit = {
+					exists = MIN
+				}
+				add_casus_belli = {
+					target = MIN
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+}
