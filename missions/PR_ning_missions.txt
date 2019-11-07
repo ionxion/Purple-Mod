@@ -1,0 +1,35 @@
+PR_ning_missions1 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = NNG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions1_desc = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		
+		effect = { 
+			if = {
+				limit = {
+					exists = WUU
+				}
+				add_casus_belli = {
+					target = WUU
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+}
