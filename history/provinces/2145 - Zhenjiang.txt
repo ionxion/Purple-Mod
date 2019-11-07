@@ -3,7 +3,6 @@
 owner = PR1
 controller = PR1
 add_core = PR1
-add_claim = NNG
 culture = jianghuai
 religion = confucianism
 capital = "Zhenjiang"
