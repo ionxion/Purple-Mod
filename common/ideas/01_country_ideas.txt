@@ -122,7 +122,7 @@ CHC_ideas = {
 PR2_ideas = { 
 	start = {
 		build_cost = -0.1
-		core_creation = -0.15
+		core_creation = -0.1
 	}
 	
 	bonus = {
