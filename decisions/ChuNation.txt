@@ -44,7 +44,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			development = 250
+			total_development = 300
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
