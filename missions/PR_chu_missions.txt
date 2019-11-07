@@ -5,7 +5,10 @@ PR_chu_missions1 = {
 	ai = yes
 	
 	potential = {
-		tag = CHC
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -44,7 +47,10 @@ PR_chu_missions2 = {
 	ai = yes
 	
 	potential = {
-		tag = CHC
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -102,7 +108,10 @@ PR_chu_missions4 = {
 	ai = yes
 	
 	potential = {
-		tag = CHC
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -139,7 +148,10 @@ PR_chu_missions5 = {
 	ai = yes
 	
 	potential = {
-		tag = CHC
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -182,7 +194,10 @@ PR_chu_missions3 = {
 	ai = yes
 	
 	potential = {
-		tag = CHC
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -239,3 +254,88 @@ PR_chu_missions3 = {
 	}
 }
 
+PR_chu_missions6 = {
+
+	slot = 2
+	generic = yes
+	ai = yes
+	
+	potential = {
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_chu_missions6_desc = {
+		icon = mission_rb_monopolize_the_channel
+		required_missions = { PR_chu_missions3_desc }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 679
+			}
+		}
+		
+		trigger = {
+			679 = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		
+		effect = { 
+			679 = {
+				add_building = marketplace
+			}
+			add_dip_power = 50
+		}
+	}
+}
+
+PR_chu_missions7 = {
+
+	slot = 5
+	generic = yes
+	ai = yes
+	
+	potential = {
+		OR = {
+			tag = CHC
+			tag = PR2
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_chu_missions7_desc = {
+		icon = mission_conquer_50_development
+		required_missions = { }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4198
+			}
+		}
+		
+		trigger = {
+			4198 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = { 
+			4198 = {
+				add_building = fort_15th
+			}
+			add_mil_power = 50
+		}
+	}
+}
