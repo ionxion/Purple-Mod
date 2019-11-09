@@ -94,7 +94,7 @@ PR_chu_missions2 = {
 					}
 				}
 				2133 = {
-					add_center_of_trade_level = 1
+					center_of_trade = 1
 				}
 			}
 		}
@@ -319,7 +319,7 @@ PR_chu_missions7 = {
 		position = 4
 		
 		provinces_to_highlight = {
-			OR = {
+			AND = {
 				province_id = 4198
 				NOT = {
 					is_core = ROOT
