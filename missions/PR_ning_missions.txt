@@ -47,7 +47,7 @@ PR_ning_missions2 = {
 	has_country_shield = yes
 	
 	PR_ning_missions2_desc = {
-		icon = mission_assemble_an_army
+		icon = mission_have_two_subjects
 		required_missions = { PR_ning_missions1_desc }
 		position = 2
 		
@@ -101,7 +101,7 @@ PR_ning_missions3 = {
 	has_country_shield = yes
 	
 	PR_ning_missions3_desc = {
-		icon = mission_assemble_an_army
+		icon = mission_unite_home_region
 		required_missions = { PR_ning_missions2_desc }
 		position = 3
 		
@@ -112,13 +112,55 @@ PR_ning_missions3 = {
 		
 		trigger = {
 			685 = {
-				country_or_non_sovereign_subject_holds = ROOT
+				is_core = ROOT
 			}
 		}
 		
 		effect = { 
 			anhui_area = {
 				add_permanent_claim = ROOT
+			}		
+		}
+	}
+}
+
+PR_ning_missions5 = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		tag = NNG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions5_desc = {
+		icon = mission_african_gold
+		required_missions = { PR_ning_missions3_desc }
+		position = 4
+		
+		provinces_to_highlight = {
+			area = jiangsu_area
+			NOT = { is_core = ROOT }
+		}
+		
+		trigger = {
+			jiangsu_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			estate_influence = {
+				estate = estate_burghers
+				influence = 50
+			}
+		}
+		
+		effect = { 
+			4196 = {
+				add_center_of_trade_level = 1
 			}		
 		}
 	}
@@ -137,7 +179,7 @@ PR_ning_missions4 = {
 	has_country_shield = yes
 	
 	PR_ning_missions4_desc = {
-		icon = mission_assemble_an_army
+		icon = mission_launch_a_flagship
 		required_missions = { }
 		position = 4
 		
