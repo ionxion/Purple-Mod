@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = formed_chu_empire_flag }
+			NOT = { has_country_flag = formed_ning_empire_flag }
 			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
@@ -13,9 +14,7 @@ country_decisions = {
 			NOT = { exists = PR2 }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			OR = {
-				culture_group = sichuanese
-			}
+			TAG = CHC
 			OR = {
 				ai = no
 				AND = {
