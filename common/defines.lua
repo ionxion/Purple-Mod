@@ -664,7 +664,7 @@ NCountry = {
 
 	DISHONOURED_ALLIANCE_DURATION = 1800,
 
-	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = 0		-- Prestige penalty for declining call for arms
+	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = 0,		-- Prestige penalty for declining call for arms
 	CLAIM_THRONE_PRESTIGE_PENALTY = -20.0,			-- Prestige penalty when claiming throne
 	BREAK_VASSAL_PRESTIGE_PENALTY = 0,			-- Prestige penalty when break vassalisation
 	BREAK_MARRIAGE_PRESTIGE_PENALTY = -1,			-- Prestige penalty when break royal marriage
