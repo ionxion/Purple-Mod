@@ -6,9 +6,9 @@ technology_group = indian
 capital = 526	# Mandu
 add_accepted_culture = rajput
 religious_school = hanafi_school
-historical_friend = VIJ
-historical_friend = BAH
-historical_friend = BNG
+historical_rival = VIJ
+historical_rival = BAH
+historical_rival = BNG
  
 #Sultans of Malwa
 1390.1.1 = {
