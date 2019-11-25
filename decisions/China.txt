@@ -4,7 +4,7 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_modifier = great_wall_reparations }
 			AND = {
-				own = 1816
+				technology_group = chinese
 				NOT = {
 					has_reform = steppe_horde
 				}
@@ -48,7 +48,7 @@ country_decisions = {
 	build_the_forbidden_city = {
 		potential = {
 			AND = {
-				own = 1816
+				technology_group = chinese
 				NOT = {
 					has_reform = steppe_horde
 				}
@@ -57,10 +57,6 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
-			}
-			OR = {
-				capital = 1816
-				capital = 1821
 			}
 			NOT = { has_country_modifier = the_forbidden_city }
 		}
