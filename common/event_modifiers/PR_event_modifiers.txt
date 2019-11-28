@@ -5,3 +5,7 @@
 PR_modifier1 = {
 	global_trade_goods_size_modifier = 0.1
 }
+
+PR_modifier2 = {
+	diplomatic_reputation = 1
+}
