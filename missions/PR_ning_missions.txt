@@ -5,7 +5,10 @@ PR_ning_missions1 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -41,7 +44,10 @@ PR_ning_missions2 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -95,7 +101,10 @@ PR_ning_missions3 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -131,7 +140,10 @@ PR_ning_missions5 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -173,7 +185,10 @@ PR_ning_missions4 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -208,7 +223,10 @@ PR_ning_missions8 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -245,7 +263,10 @@ PR_ning_missions6 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -305,7 +326,10 @@ PR_ning_missions7 = {
 	ai = yes
 	
 	potential = {
-		tag = NNG
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -318,6 +342,7 @@ PR_ning_missions7 = {
 		provinces_to_highlight = {
 			province_id = 667
 			province_id = 668
+			NOT = { is_core = ROOT }
 		}
 		
 		trigger = {
@@ -340,6 +365,48 @@ PR_ning_missions7 = {
 				religion = confucianism
 				skill = 2					
 				discount = yes
+			}
+		}
+	}
+}
+
+PR_ning_missions9 = {
+
+	slot = 4
+	generic = yes
+	ai = yes
+	
+	potential = {
+		OR = {
+			tag = NNG
+			tag = PR3
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	PR_ning_missions9_desc = {
+		icon = mission_asian_trader
+		required_missions = { PR_ning_missions7_desc }
+		position = 7
+		
+		provinces_to_highlight = {
+			area = guangdong_area
+			NOT = { is_core = ROOT }
+		}
+		
+		trigger = {
+			guangdong_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 25
+			west_guangdong_area = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
