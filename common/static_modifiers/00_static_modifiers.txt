@@ -1386,13 +1386,13 @@ native_policy_hostile = {
 
 high_harmony = {
 	tolerance_own = 1
+	global_trade_goods_size_modifier = 0.1
 }
 
 low_harmony = {
-	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
-	meritocracy = -2
+	republican_tradition = -0.3
+	global_unrest = 1
 }
 
 ########################################
