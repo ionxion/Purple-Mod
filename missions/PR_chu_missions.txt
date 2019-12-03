@@ -1,7 +1,6 @@
 PR_chu_missions1 = {
 
 	slot = 1
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -43,7 +42,6 @@ PR_chu_missions1 = {
 PR_chu_missions2 = {
 
 	slot = 1
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -104,7 +102,6 @@ PR_chu_missions2 = {
 PR_chu_missions4 = {
 
 	slot = 1
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -144,7 +141,6 @@ PR_chu_missions4 = {
 PR_chu_missions5 = {
 
 	slot = 1
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -190,7 +186,6 @@ PR_chu_missions5 = {
 PR_chu_missions3 = {
 
 	slot = 2
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -257,7 +252,6 @@ PR_chu_missions3 = {
 PR_chu_missions6 = {
 
 	slot = 2
-	generic = yes
 	ai = yes
 	
 	potential = {
@@ -301,7 +295,6 @@ PR_chu_missions6 = {
 PR_chu_missions7 = {
 
 	slot = 5
-	generic = yes
 	ai = yes
 	
 	potential = {
