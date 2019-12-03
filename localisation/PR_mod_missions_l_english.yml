@@ -37,4 +37,6 @@
  PR_modifier2:0 "Diplomatic Rule"
  ning_empire_nation_title:0 "Form Ning Empire"
  ning_empire_nation_desc:0 "TBD"
+ PR_china_shared_missions1_desc_title:0 "Hunan Gold Mine"
+ PR_china_shared_missions1_desc_desc:0 "TBD"
  PR.building_alliances.tooltip:0 "At least §Y2§! countries:\nAlliance with §Y[Root.GetName]§!.\nHave at least §Y75§! opinion of §Y[Root.GetName]§!."
