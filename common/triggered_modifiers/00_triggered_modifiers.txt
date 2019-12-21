@@ -724,7 +724,7 @@ golden_age_of_piracy = {
 # CN player nerfs
 ######################################
 
-t_player_cn = {
+pr_player_cn = {
 	potential = {
 		is_colonial_nation = yes
 	}

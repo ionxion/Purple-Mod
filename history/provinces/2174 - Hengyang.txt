@@ -3,7 +3,7 @@
 owner = CMI
 controller = CMI
 add_core = CMI
-add_claim = SHU
+add_claim = CHC
 culture = xiang
 religion = animism
 capital = "Hengyang"

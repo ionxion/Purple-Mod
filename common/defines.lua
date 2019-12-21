@@ -350,7 +350,7 @@ NDiplomacy = {
 	BREAK_ALLIANCE_PENALTY_SCALER = -0.85,			-- Break Alliance resentment is scaled by this value but is capped at -100.
 	BREAK_ALLIANCE_DIPLOREP_FACTOR = 3,				-- AI acceptance factor per diplomatic reputation
 
-	ABANDON_UNION_PRESTIGE = -25,					-- The change in prestige for the overlord when abandoning a personal union.
+	ABANDON_UNION_PRESTIGE = 0,					-- The change in prestige for the overlord when abandoning a personal union.
 
 	PAY_SUBJECT_DEBT_LIBERTY_DESIRE_REDUCTION = 5,	-- Amount of liberty desire the subject loses per paid loan
 
@@ -608,7 +608,7 @@ NCountry = {
 	PS_MOVE_CAPITAL = 200,
 	PS_MOVE_CAPITAL_EXTRA = 50,						-- Per 100 country development.
 	PS_MOVE_TRADE_PORT = 200,
-	PS_REPLACE_RIVAL = 100,
+	PS_REPLACE_RIVAL = 0,
 	PS_SEIZE_COLONY = 25,
 	PS_BURN_COLONY = 5,
 	PS_ATTACK_NATIVES = 5,
@@ -664,9 +664,9 @@ NCountry = {
 
 	DISHONOURED_ALLIANCE_DURATION = 1800,
 
-	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = -25.0,		-- Prestige penalty for declining call for arms
+	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = 0,		-- Prestige penalty for declining call for arms
 	CLAIM_THRONE_PRESTIGE_PENALTY = -20.0,			-- Prestige penalty when claiming throne
-	BREAK_VASSAL_PRESTIGE_PENALTY = -25.0,			-- Prestige penalty when break vassalisation
+	BREAK_VASSAL_PRESTIGE_PENALTY = 0,			-- Prestige penalty when break vassalisation
 	BREAK_MARRIAGE_PRESTIGE_PENALTY = -1,			-- Prestige penalty when break royal marriage
 	BREAK_MARRIAGE_STABILITY_PENALTY = -1,			-- Stability penalty when break royal marriage
 	FORM_MARRIAGE_HIGHER_PRESTIGE = -2,				-- Legitimacy Change when forming a royal marriage while having more Prestige than the other country.
@@ -684,7 +684,7 @@ NCountry = {
 	CORE_LOSE = 50, 								-- how many years until a core is lost.
 	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
-	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
+	CORE_LOSE_PRESTIGE = 0,						-- Prestige change when lost core
 	ABANDON_CORE_PRESTIGE = -10.0,					-- The cost of abandoning a core that some other country owns.
 	ABANDON_IDEAGROUP_REFUND = 0.10,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.05, 						-- _CDEF_NEIGHBOURBONUS_
@@ -874,7 +874,7 @@ NEconomy = {
 	EDICTS_DURATION_MONTHS = 12,				-- months lastin at least.
 	DEBASE_MAX_STORED_MONTHS = 60,					-- Debase currency stores up to this many months of charges.
 	DEBASE_MONTHS_PER_CHARGE = 12,					-- Amount of months used for one debase charge.
-	DEBASE_MAX_CORRUPTION = 90,						-- Above this level of corruption, you won't be able to Debase Currency.
+	DEBASE_MAX_CORRUPTION = 10,						-- Above this level of corruption, you won't be able to Debase Currency.
 	DEBASE_ADDED_CORRUPTION = 2,					-- This amount of corruption added per standard sized bank loan worth of currency.
 	GOLD_MINE_SIZE = 40,							-- Base income from gold mines
 	GOLD_MINE_DEPLETION_THRESHOLD = 1,				-- Gold mines above production level or above can be depleted
@@ -890,7 +890,7 @@ NEconomy = {
 	COLONY_MIN_AUTONOMY = 50,						-- Colonial cores always have at least this much autonomy
 	CAPITAL_MAX_AUTONOMY = 0,						-- Capital province autonomy can never be above this
 	DECREASE_AUTONOMY_STEP = -25,
-	DECREASE_AUTONOMY_MIN = 10,
+	DECREASE_AUTONOMY_MIN = 0,
 	INCREASE_AUTONOMY_STEP = 25,
 	INCREASE_AUTONOMY_MAX = 75,
 	AUTONOMY_CHANGE_DURATION = 10950,			-- about 30 years
@@ -944,7 +944,7 @@ NEconomy = {
 	EMBARGO_BASE_EFFICIENCY = 0.5,					-- EMBARGO_BASE_EFFICIENCY
 	EMBARGO_MERCANTILISM_EFFICIENCY = 50,			-- Percentage added to embargo efficiency modifier scaled by mercantilism.
 	TRADE_ADDED_VALUE_MODIFER = 0.05,
-	TRADE_PROPAGATE_DIVIDER = 5,
+	TRADE_PROPAGATE_DIVIDER = 7,
 	TRADE_PROPAGATE_THRESHOLD = 2,
 	REGAIN_COST_BEFORE_PROGRESS = 0.1,				-- Before what percentage will the full cost be regained
 	ALLOW_DESTROY_MANUFACTORY = 0,					-- Should the player be permitted to destroy manufactories?
@@ -959,11 +959,11 @@ NEconomy = {
 	MIN_ARMY_MAINTENANCE = 0.1,
 	MIN_NAVY_MAINTENANCE = 0.1,
 	CARAVAN_FACTOR = 3.0,							-- Development is divided by this factor, do not set to zero!
-	CARAVAN_POWER_MAX = 50,
+	CARAVAN_POWER_MAX = 30,
 	CARAVAN_POWER_MIN = 2,
 	MAX_BUILDING_SLOTS = 12,						-- Maximum number of buildings slots, i.e. max buildings possible.
 	COT_BUILDING_SLOTS = 2,							-- Number of slots used by a Center of Trade.
-	COT_DOWNGRADE_PRESTIGE_COST = -10,				-- Cost in prestige to downgrade a Center of Trade.
+	COT_DOWNGRADE_PRESTIGE_COST = 0,				-- Cost in prestige to downgrade a Center of Trade.
 	MAX_LD_FOR_CONSTRUCT_IN_SUBJECT = 50,			-- Maximum liberty desire at which an overlord can recruit regiments and build ships in a subject's glorious lands.
 	CONSTRUCT_IN_SUBJECT_TIME_MULTIPLIER = 1.25,
 	BANK_LOAN_DURATION = 60,						-- Default bank loan duration in months
@@ -1883,12 +1883,12 @@ NReligion = {
 	KARMA_RESTORE_ON_RULER_DEATH = 25,
 
 	CHANGE_SECONDARY_PRESTIGE_HIT = -50,
-	MIN_HARMONIZE_DEVELOPMENT = 20,
+	MIN_HARMONIZE_DEVELOPMENT = 50,
 	STARTING_HARMONY = 50.0,							-- Confucian countries start with this.
 	YEARLY_HARMONY_INCREASE = 1.0,
-	HARMONY_LOSS_PER_DEV_CONVERTED = 1.0,
+	HARMONY_LOSS_PER_DEV_CONVERTED = 0.2,
 	YEARLY_HARMONY_INCREASE_WHEN_HARMONIZING = -3.0,
-	YEARLY_HARMONIZATION_PROGRESS = 0.03, 			-- 3%
+	YEARLY_HARMONIZATION_PROGRESS = 0.04, 			-- 3%
 
 	INITIAL_ISOLATIONISM = 1,						-- Level of isolationism for a newly shintoed country.
 

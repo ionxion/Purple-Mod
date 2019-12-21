@@ -899,4 +899,6 @@ SYN = "countries/Synthetics.txt"
 #TRL = countries/Trapalanda.txt
 
 #PR China Tags:
-PR1 = countries/Jiangsu.txt
+PR1 = "countries/Jiangsu.txt"
+PR2 = "countries/Chu Empire.txt"
+PR3 = "countries/Ning Empire.txt"

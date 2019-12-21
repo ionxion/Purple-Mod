@@ -203,7 +203,7 @@ capital = 1020	# Yamashiro
 #		death_date = 1443.8.16
 		adm = 2
 		dip = 3
-		mil = 1
+		mil = 2
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = malevolent_personality

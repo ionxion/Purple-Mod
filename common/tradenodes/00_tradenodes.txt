@@ -338,7 +338,6 @@ lhasa={
 }
 chengdu={
 	location=679
-	inland=yes
 	outgoing={
 		name="canton"
 		path={
@@ -422,12 +421,21 @@ australia={
 nippon={
 	location=1376
 	outgoing={
-		name="hangzhou"
+		name="beijing"
 		path={
-			1389 1373 684 
+			1389 1374 1375 4233
 		}
 		control={
-			4801.000000 1197.000000 4760.000000 1154.000000 
+			4793.000000 1273.000000 4759.000000 1325.000000 4689.000000 1309.000000
+		}
+	}
+	outgoing={
+		name="philippines"
+		path={
+			1389 1392 1396 4358
+		}
+		control={
+			4799.000000 1090.000000
 		}
 	}
 	members={
@@ -474,7 +482,6 @@ hangzhou={
 }
 xian={
 	location=700
-	inland=yes
 	outgoing={
 		name="beijing"
 		path={

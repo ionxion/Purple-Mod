@@ -4,6 +4,8 @@ primary_culture = japanese
 religion = shinto
 technology_group = chinese
 capital = 1830	# Tajima
+historical_friend = HSK
+historical_friend = OUC
 
 1328.1.1 = {
 	monarch = {
