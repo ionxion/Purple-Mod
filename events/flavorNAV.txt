@@ -63,6 +63,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		tag = ARA
 	}
 	mean_time_to_happen = {
@@ -83,6 +84,7 @@ country_event = {
 	title = flavor_nav.4.t
 	desc = {
 		trigger = {
+			always = no
 			NAV = {
 				ai = yes
 			}
