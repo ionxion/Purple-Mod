@@ -28,6 +28,19 @@ capital = 210	# Pamplona
 	}
 }
 
+1444.1.1 = {
+	heir = {
+		name = "Joan III"
+		dynasty = "de Foix "
+		birth_date = 1429.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
 1479.1.20 = {
 	monarch = {
 		name = "Leonor I"
