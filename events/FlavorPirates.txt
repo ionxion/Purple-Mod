@@ -11,10 +11,10 @@ country_event = {
 	picture = CARIBBEAN_PIRATE_FORT_eventPicture
 	desc = "pirates.2.d"
 	
-	always = no
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		NOT = { exists = NSS }
 		has_global_flag = golden_age_of_piracy
@@ -147,6 +147,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		not = { exists = LIB }
 		capital_scope = {
@@ -286,6 +287,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		not = { exists = SLE }
 		218 = {
@@ -419,6 +421,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		is_year = 1515
 		NOT = { is_year = 1542 }
@@ -546,6 +549,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		NOT = { exists = PRY }
 		has_global_flag = golden_age_of_piracy
@@ -693,6 +697,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		NOT = { exists = TOR }
 		489 = {
@@ -822,6 +827,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		tag = PLB
 		NOT = { is_year = 1446 }
 		has_dlc = "Golden Century"
@@ -866,6 +872,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		tag = PAT
 		has_dlc = "Golden Century"
 		is_year = 1563
@@ -919,6 +926,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Golden Century"
 		OR = {
 			any_subject_country = {
