@@ -713,15 +713,10 @@ gc_morocco_3 = {
 					has_building = drydock
 				}
 			}
-			OR = {
-				any_subject_country = {
-					has_reform = pirate_republic_reform
-				}
-				1297 = {
-					privateer_power = {
-						country = ROOT
-						share = 25
-					}
+			1297 = {
+				privateer_power = {
+					country = ROOT
+					share = 25
 				}
 			}
 		}
