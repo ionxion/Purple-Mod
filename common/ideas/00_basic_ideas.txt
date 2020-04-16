@@ -13,14 +13,6 @@ aristocracy_ideas = {
 	bonus = {
 		leader_siege = 1
 	}
-
-	trigger = {
-		OR = {
-			has_government_attribute = enables_aristocratic_idea_group
-			government = theocracy
-			government = tribal
-		}
-	}
 	
 	noble_knights = {
 		cavalry_power = 0.10
