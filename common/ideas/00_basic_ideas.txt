@@ -933,7 +933,7 @@ naval_ideas = {
 	category = MIL
 
 	trigger = {
-		primitives = no
+		always = no
 	}
 
 	bonus = {
