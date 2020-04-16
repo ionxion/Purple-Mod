@@ -59,10 +59,6 @@ plutocracy_ideas = {
 		global_institution_spread = 0.10
 	}
 
-	trigger = {
-		has_government_attribute = enables_plutocratic_idea_group
-	}
-
 	tradition_of_payment = {
 		possible_mercenaries = 0.10
 		mercenary_discipline = 0.025
