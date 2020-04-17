@@ -457,7 +457,6 @@ country_event = {
 	trigger = {
 		revolution_target_exists = no 
 		capital_scope = { 
-			continent = europe 
 			controlled_by = REB
 		} 
 		num_of_cities = 10
