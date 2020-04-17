@@ -398,6 +398,7 @@ counter_revolution = {
 	potential = {
 		revolution_target_exists = yes
 		is_revolution_target = no
+		always = no
 	}
 
 	trigger = {
@@ -430,6 +431,7 @@ reaction = {
 	potential = {
 		revolution_target_exists = yes
 		capital_scope = { continent = europe }
+		always = no
 	}
 
 	trigger = {
