@@ -8,6 +8,7 @@ french_revolution = {
 		government = monarchy
 		NOT = { has_reform = celestial_empire }
 		normal_or_historical_nations = yes
+		always = no
 	}
 	
 	
