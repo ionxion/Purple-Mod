@@ -2042,21 +2042,6 @@ enlightenment = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_university_on_institution_continent
 				has_building = university
-				any_province = {
-					is_institution_origin = enlightenment
-					continent = PREV
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_university_not_institution_continent
-				has_building = university
-				any_province = {
-					is_institution_origin = enlightenment
-					NOT = { continent = PREV }
-				}
 			}
 		}
 		modifier = {
