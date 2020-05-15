@@ -6,3 +6,4 @@
  ABANDON_CORE_COST:0 "Abandoning a core may restore your relation with the target country."
  tooltip_university_on_institution_continent:0 "Have a §YUniversity§!."
  DISHONORED_PENALTY_UNTIL:0 ""
+ PR_tooltip_infiltrate:0 "Infiltrate Administration is disabled."
