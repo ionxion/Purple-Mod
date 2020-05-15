@@ -216,3 +216,14 @@ guaranteeaction = {
 		}
 	}
 }
+
+infiltrate_administration = {
+	condition = {
+		tooltip = PR_tooltip_infiltrate
+		potential = {
+		}
+		allow = {
+			always = no
+		}
+	}
+}
