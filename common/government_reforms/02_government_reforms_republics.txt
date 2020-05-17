@@ -100,6 +100,7 @@ venice_merchants_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
+		always = no
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = VEN
