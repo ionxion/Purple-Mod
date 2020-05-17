@@ -670,6 +670,7 @@ PR_player_cn = {
 		was_player = yes
 	}
 
+	land_forcelimit_modifier = -0.25
 	naval_forcelimit_modifier = -0.5
 	possible_mercenaries = -0.5
 	development_cost = 0.2
