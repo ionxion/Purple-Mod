@@ -150,7 +150,6 @@ venice_merchants_reform = {
 }
 
 pirate_republic_reform = {
-	always = no
 	icon = "pirate_republic"
 	allow_normal_conversion = no
 	legacy_equivalent = pirate_republic
@@ -178,6 +177,7 @@ pirate_republic_reform = {
 	}
 	
 	potential = {
+		always = no
 		has_reform = pirate_republic_reform
 		has_dlc = "Golden Century"
 	}
