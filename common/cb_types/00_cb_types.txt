@@ -946,7 +946,8 @@ cb_humiliate_rotw = {
 		is_rival = FROM
 		is_revolution_target = no
 		FROM = { 
-				ai = yes
+			ai = yes
+		}
 	}
 
 	attacker_disabled_po = {
