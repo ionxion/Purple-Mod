@@ -1,7 +1,8 @@
 # 1865 - Ghent
 
-owner = FLA
-controller = FLA
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = FLA
 is_city = yes
 capital = "Ghent"
