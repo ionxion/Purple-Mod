@@ -666,7 +666,6 @@ christian = {
 
 			icon_michael = {
 				discipline = 0.05
-				manpower_recovery_speed = 0.1
 				
 				allow = {
 					always = yes
