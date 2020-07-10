@@ -84,7 +84,6 @@ country_event = {
 	title = flavor_nav.4.t
 	desc = {
 		trigger = {
-			always = no
 			NAV = {
 				ai = yes
 			}
