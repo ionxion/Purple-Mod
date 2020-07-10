@@ -157,18 +157,6 @@ country_event = {
 						months = 480
 					}
 				}
-				every_known_country = {
-					limit = {
-						is_elector = yes
-						is_emperor = no
-						government = monarchy
-					}
-					reverse_add_casus_belli = {
-						target = BUR
-						type = cb_restore_personal_union
-						months = 480
-					}
-				}
 			}
 		}
 	}
@@ -187,18 +175,6 @@ country_event = {
 		name = "incidents_bur_join_empire.4.a"
 		ai_chance = {
 			factor = 1
-		}
-		every_known_country = {
-			limit = {
-				is_elector = yes
-				is_emperor = no
-				government = monarchy
-			}
-			reverse_add_casus_belli = {
-				target = BUR
-				type = cb_restore_personal_union
-				months = 480
-			}
 		}
 		every_known_country = {
 			limit = {
