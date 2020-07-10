@@ -713,50 +713,6 @@ country_event = {
 			add_liberty_desire = 25
 		}
 	}
-
-	option = {
-		name = flavor_bur.21.b
-		ai_chance = {
-			factor = 0
-		}
-		every_subject_country = {
-			limit = {
-				ai = yes
-				capital_scope = {
-					OR = {
-						region = france_region 
-						culture_group = french
-						culture = dutch
-						culture = flemish
-						is_part_of_hre = yes
-					}
-				}
-			}
-			BUR = { free_vassal = PREV }
-			if = {
-				limit = {
-					government = monarchy
-					NOT = { has_reform = celestial_empire }
-				}
-				random = {
-					chance = 20
-					change_government = republic
-					add_government_reform = merchants_reform
-				}
-			}
-			if = {
-				limit = {
-					government = monarchy
-					NOT = { has_reform = celestial_empire }
-				}
-				random = {
-					chance = 20
-					change_government = republic
-					#set_legacy_government = administrative_republic
-				}
-			}
-		}
-	}
 }
 
 
