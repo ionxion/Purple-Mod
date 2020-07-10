@@ -696,9 +696,9 @@ gc_morocco_3 = {
 					privateer_power = {
 						country = ROOT
 						share = 25
+						
 					}
 				}
-			}
 		}
 		
 		effect = {
