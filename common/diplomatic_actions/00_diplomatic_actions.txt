@@ -304,3 +304,73 @@ spy_network = {
 		}
 	}
 }
+
+warsubsidy = {
+	condition = {
+		tooltip = PR_tooltip_cn_money
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { is_colonial_nation = yes }
+		}
+	}
+	condition = {
+		tooltip = PR_tooltip_money_to_cn
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}
+offerloan = {
+	condition = {
+		tooltip = PR_tooltip_cn_money
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { is_colonial_nation = yes }
+		}
+	}
+	condition = {
+		tooltip = PR_tooltip_money_to_cn
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}
+giftaction = {
+	condition = {
+		tooltip = PR_tooltip_cn_money
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { is_colonial_nation = yes }
+		}
+	}
+	condition = {
+		tooltip = PR_tooltip_money_to_cn
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			OR = {
+				FROM = { is_colonial_nation = no }
+				FROM = { is_subject_of = ROOT }
+			}
+		}
+	}
+}
