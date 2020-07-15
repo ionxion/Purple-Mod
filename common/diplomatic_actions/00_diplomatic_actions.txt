@@ -273,3 +273,34 @@ infiltrate_administration = {
 		}
 	}
 }
+
+support_independence_action = {
+	condition = {
+		tooltip = PR_tooltip_cn_support
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+spy_network = {
+	condition = {
+		tooltip = PR_tooltip_cn_espionage
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			OR = {
+				FROM = {
+					is_colonial_nation = yes
+				}
+				OR = {
+					FROM = { same_continent = ROOT }
+				}
+			}
+		}
+	}
+}
