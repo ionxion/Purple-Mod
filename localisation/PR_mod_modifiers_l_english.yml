@@ -7,3 +7,5 @@
  tooltip_university_on_institution_continent:0 "Have a §YUniversity§!."
  DISHONORED_PENALTY_UNTIL:0 ""
  PR_tooltip_infiltrate:0 "Infiltrate Administration is disabled."
+ PR_tooltip_cn_support:0 "Colonial Nations may not ask other nations to support their independence."
+ PR_tooltip_cn_spy:0 "Colonial Nations may only perform covert actions against other Colonial Nations or those with a capital on their continent."
