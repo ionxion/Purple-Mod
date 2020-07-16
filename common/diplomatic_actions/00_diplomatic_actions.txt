@@ -288,7 +288,7 @@ support_independence_action = {
 
 spy_network = {
 	condition = {
-		tooltip = PR_tooltip_cn_espionage
+		tooltip = PR_tooltip_cn_spy
 		potential = {
 			is_colonial_nation = yes
 		}
@@ -297,9 +297,8 @@ spy_network = {
 				FROM = {
 					is_colonial_nation = yes
 				}
-				OR = {
-					FROM = { same_continent = ROOT }
-				}
+				FROM = { same_continent = ROOT }
+				ROOT = { is_subject_of = FROM }
 			}
 		}
 	}

@@ -8,6 +8,6 @@
  DISHONORED_PENALTY_UNTIL:0 ""
  PR_tooltip_infiltrate:0 "Infiltrate Administration is disabled."
  PR_tooltip_cn_support:0 "Colonial Nations may not ask other nations to support their independence."
- PR_tooltip_cn_spy:0 "Colonial Nations may only perform covert actions against other Colonial Nations or those with a capital on their continent."
+ PR_tooltip_cn_spy:0 "Colonial Nations may only perform covert actions against: Colonial Nations, nations on their continent or their overlord."
  PR_tooltip_cn_money:0 "Colonial Nations may only give money to their overlord."
  PR_tooltip_money_to_cn:0 "Colonial Nations may only receive money from their overlord."
