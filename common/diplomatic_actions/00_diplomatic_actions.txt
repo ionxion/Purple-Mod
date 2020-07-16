@@ -312,7 +312,7 @@ warsubsidy = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			FROM = { is_colonial_nation = yes }
+			ROOT = { is_colonial_nation_of = FROM }
 		}
 	}
 	condition = {
@@ -335,7 +335,7 @@ offerloan = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			FROM = { is_colonial_nation = yes }
+			ROOT = { is_colonial_nation_of = FROM }
 		}
 	}
 	condition = {
@@ -358,7 +358,7 @@ giftaction = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			FROM = { is_colonial_nation = yes }
+			ROOT = { is_colonial_nation_of = FROM }
 		}
 	}
 	condition = {
