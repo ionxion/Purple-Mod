@@ -311,7 +311,17 @@ warsubsidy = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			ROOT = { is_colonial_nation_of = FROM }
+			OR = {
+				ROOT = { is_colonial_nation_of = FROM }
+				{ is_subject_of_type = colony
+				overlord = {
+					FROM = {
+						is_subject_of = PREV
+						is_subject_of_type = colony
+						}
+					}
+				}
+			}
 		}
 	}
 	condition = {
@@ -334,7 +344,17 @@ offerloan = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			ROOT = { is_colonial_nation_of = FROM }
+			OR = {
+				ROOT = { is_colonial_nation_of = FROM }
+				{ is_subject_of_type = colony
+				overlord = {
+					FROM = {
+						is_subject_of = PREV
+						is_subject_of_type = colony
+						}
+					}
+				}
+			}
 		}
 	}
 	condition = {
@@ -357,7 +377,17 @@ giftaction = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			ROOT = { is_colonial_nation_of = FROM }
+			OR = {
+				ROOT = { is_colonial_nation_of = FROM }
+				{ is_subject_of_type = colony
+				overlord = {
+					FROM = {
+						is_subject_of = PREV
+						is_subject_of_type = colony
+						}
+					}
+				}
+			}
 		}
 	}
 	condition = {
