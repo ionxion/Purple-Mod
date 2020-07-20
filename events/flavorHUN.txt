@@ -231,18 +231,6 @@ country_event = {
 			hidden_effect = { add_heir_personality = just_personality }
 		}
 		kill_ruler = yes
-		HAB = {
-			tooltip = {
-				add_casus_belli = {	
-					target = HUN
-					type = cb_restore_personal_union
-					months = 60
-				}	
-			}
-			hidden_effect = {
-				country_event = { id = flavor_hun.10 days = 1 }
-			}
-		}
 	}
 	option = {
 		name = flavor_hun.2.b	
@@ -252,12 +240,6 @@ country_event = {
 			if = {
 				limit = { senior_union_with = CRO }
 				inherit = CRO
-			}
-		}
-		HAB = {
-			create_union = HUN
-			hidden_effect = {
-				country_event = { id = flavor_hun.3 days = 1 }
 			}
 		}
 	}
@@ -280,18 +262,6 @@ country_event = {
 		remove_historical_friend = HAB
 		HAB = { remove_historical_friend = HUN }
 		kill_ruler = yes
-		HAB = {
-			tooltip = {
-				add_casus_belli = {	
-					target = HUN
-					type = cb_restore_personal_union
-					months = 60
-				}	
-			}
-			hidden_effect = {
-				country_event = { id = flavor_hun.10 days = 1 }
-			}
-		}
 	}
 }
 
@@ -444,18 +414,6 @@ country_event = {
 			hidden_effect = { add_heir_personality = just_personality }
 		}
 		kill_ruler = yes
-		HAB = {
-			tooltip = {
-				add_casus_belli = {	
-					target = HUN
-					type = cb_restore_personal_union
-					months = 60
-				}	
-			}
-			hidden_effect = {
-				country_event = { id = flavor_hun.10 days = 1 }
-			}
-		}
 	}
 }
 
