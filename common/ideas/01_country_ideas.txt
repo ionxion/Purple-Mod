@@ -60,7 +60,7 @@ NNG_ideas = {
 	}
 	free = yes		
 	NNG_1 = {
-		land_morale = 0.5
+		land_morale = 0.05
 		discipline = 0.05
 	}
 	NNG_2 = {
@@ -120,42 +120,5 @@ CHC_ideas = {
 	}
 	CHC_7 = {
 		global_manpower_modifier = 0.25
-	}
-}
-
-PR2_ideas = { 
-	start = {
-		build_cost = -0.1
-		core_creation = -0.1
-	}
-	
-	bonus = {
-		tolerance_heathen = 2
-	}
-	free = yes
-	PR2_1 = {
-		technology_cost = -0.1
-		advisor_cost = -0.1
-	}
-	PR2_2 = {
-		development_cost = -0.1
-	}
-	PR2_3 = {
-		land_morale = 0.1
-		infantry_power = 0.1
-	}
-	PR2_4 = {
-		prestige = 0.5
-		army_tradition = 0.5
-	}
-	PR2_5 = {
-		global_manpower_modifier = 0.25
-	}
-	PR2_6 = {
-		num_accepted_cultures = 3
-		promote_culture_cost = -0.5
-	}
-	PR2_7 = {
-		fire_damage = 0.1
 	}
 }
