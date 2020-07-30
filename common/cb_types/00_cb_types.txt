@@ -35,6 +35,9 @@ cb_restore_personal_union = {
 			}
 			is_subject = no
 		}
+		FROM = {
+			ai = yes
+		}
 	}
 
 	war_goal = take_capital_personal_union
@@ -117,6 +120,12 @@ cb_vassalize_mission = {
 
 	is_triggered_only = yes
 	months = 120
+	
+	prerequisites = {
+		FROM = {
+			ai = yes
+		}
+	}
 
 	war_goal = take_capital_vassalize
 }
@@ -1225,6 +1234,9 @@ cb_force_tributary = {
 		is_emperor_of_china = yes
 		FROM = { is_subject = no }
 		is_neighbor_of = FROM
+		FROM = {
+			ai = yes
+		}
 	}
 	
 	war_goal = take_capital_force_tributary
