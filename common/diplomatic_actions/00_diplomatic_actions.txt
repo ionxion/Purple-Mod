@@ -171,6 +171,9 @@ vassalaction = {
 		potential = {
 		}
 		allow = {
+			FROM = { 
+				ai = yes
+			}
 			alliance_with = FROM
 			FROM = {
 				has_opinion = {
@@ -253,6 +256,19 @@ invite_to_trade_league = {
 
 guaranteeaction = {
 	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = { 
+				ai = yes
+			}
+		}
+	}
+}
+
+tributary_state_action = {
+	condition = {
+		tooltip = PR_tooltip_tributary
 		potential = {
 		}
 		allow = {

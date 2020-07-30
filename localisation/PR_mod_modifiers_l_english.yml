@@ -11,3 +11,5 @@
  PR_tooltip_cn_spy:0 "Colonial Nations may only perform covert actions against: Colonial Nations, nations on their continent or their overlord."
  PR_tooltip_cn_money:0 "Colonial Nations may only give money to: Colonial Nations with the same overlord or their overlord."
  PR_tooltip_money_to_cn:0 "Colonial Nations may only receive money from their overlord."
+ VASSALINVALID:0 "To offer Vassalization you must 1) have a Military Alliance 2) have a relation of at least +190 3) the target country must be at peace 4) the nation is NOT a player."
+ PR_tooltip_infiltrate:0 "A Player may not become a tributary."
