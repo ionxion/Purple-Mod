@@ -322,25 +322,6 @@ spy_network = {
 
 warsubsidy = {
 	condition = {
-		tooltip = PR_tooltip_cn_money
-		potential = {
-			is_colonial_nation = yes
-		}
-		allow = {
-			OR = {
-				ROOT = { is_colonial_nation_of = FROM }
-				{ is_subject_of_type = colony
-				overlord = {
-					FROM = {
-						is_subject_of = PREV
-						is_subject_of_type = colony
-						}
-					}
-				}
-			}
-		}
-	}
-	condition = {
 		tooltip = PR_tooltip_money_to_cn
 		potential = {
 			is_colonial_nation = no
@@ -353,6 +334,7 @@ warsubsidy = {
 		}
 	}
 }
+
 offerloan = {
 	condition = {
 		tooltip = PR_tooltip_cn_money
@@ -362,14 +344,12 @@ offerloan = {
 		allow = {
 			OR = {
 				ROOT = { is_colonial_nation_of = FROM }
-				{ is_subject_of_type = colony
 				overlord = {
 					FROM = {
 						is_subject_of = PREV
 						is_subject_of_type = colony
 						}
 					}
-				}
 			}
 		}
 	}
@@ -395,14 +375,12 @@ giftaction = {
 		allow = {
 			OR = {
 				ROOT = { is_colonial_nation_of = FROM }
-				{ is_subject_of_type = colony
 				overlord = {
 					FROM = {
 						is_subject_of = PREV
 						is_subject_of_type = colony
 						}
 					}
-				}
 			}
 		}
 	}
