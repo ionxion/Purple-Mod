@@ -300,6 +300,17 @@ support_independence_action = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = PR_tooltip_to_cn_support
+		potential = {
+			is_colonial_nation = no
+		}
+		allow = {
+			FROM = {
+				is_colonial_nation = no
+			}
+		}
+	}
 }
 
 spy_network = {
