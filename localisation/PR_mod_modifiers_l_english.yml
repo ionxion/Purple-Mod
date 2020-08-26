@@ -17,3 +17,5 @@
  COT_RIGHT_CLICK_TO_DOWNGRADE:0 "Right click to downgrade to $NAME|Y$."
  COT_RIGHT_CLICK_TO_DOWNGRADE_SUBJECT:0 "Right click to downgrade to $NAME|Y$. Downgrading a Center of Trade controlled by a subject will add §R$LIBERTY_DESIRE$%§! Liberty Desire."
  COT_DOWNGRADE_CONFIRM_DESC:0 "Downgrade to $NAME|Y$:\n$DESCRIPTION$.\nThis will provide the following benefits:\n$BENEFITS$\n"
+ PR_african_colonist_reform:0 "Land Reclamation"
+ PR_african_colonist_reform_desc:0 "The jungle has long been untamed and wild, to further our interests these areas must be reclaimed for human use."
