@@ -37,7 +37,6 @@ country_event = {
 		name = flavor_kon.1.a			# Let Them Preach
 		ai_chance = { factor = 90 }
 		
-		add_stability = -1
 		add_prestige = -25
 		add_legitimacy = -25
 		random_owned_province = {
@@ -159,7 +158,6 @@ country_event = {
 			change_government_to_monarchy = yes
 			#set_legacy_government = despotic_monarchy
 		}
-		add_stability = -3
 
 		hidden_effect = {
 			POR = {
