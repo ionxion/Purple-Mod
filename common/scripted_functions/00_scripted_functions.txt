@@ -136,6 +136,22 @@ can_move_trade_port = {
 }
 
 can_order_assault = {
+	condition = {
+		tooltip = "PR_tooltip_cn_assault"
+		potential = {
+			FROM = {
+				is_colonial_nation = yes
+			}
+		}
+		allow = {
+			OR = {
+				continent = north_america
+				continent = south_america
+				region = australia_region
+				region = oceanea_region
+			}
+		}
+	}
 }
 
 can_order_force_march = {
