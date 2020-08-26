@@ -260,6 +260,9 @@ country_event = {
 				has_reform = signoria_reform
 			}
 			define_ruler = {
+				adm = -2
+				dip = -2
+				mil = -2
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -269,6 +272,9 @@ country_event = {
 		else_if = {
 			limit = { has_reform = signoria_reform }
 			define_ruler = {
+				adm = -2
+				dip = -2
+				mil = -2
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -453,6 +459,9 @@ country_event = {
 				has_reform = signoria_reform
 			}
 			define_ruler = {
+				adm = -2
+				dip = -2
+				mil = -2
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -464,6 +473,9 @@ country_event = {
 				has_reform = signoria_reform
 			}
 			define_ruler = {
+				adm = -2
+				dip = -2
+				mil = -2
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -1231,6 +1243,9 @@ country_event = {
 				has_reform = signoria_reform
 			}
 			define_ruler = {
+				adm = -1
+				dip = -1
+				mil = -1
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -1243,6 +1258,9 @@ country_event = {
 				has_reform = signoria_reform
 			}
 			define_ruler = {
+				adm = -1
+				dip = -1
+				mil = -1
 				min_age = 30
 				max_age = 50
 				name = "lastname"
