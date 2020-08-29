@@ -6,13 +6,13 @@ color = { 203  164  103 }
 
 # Used for colonial nations
 historical_idea_groups = {	
-	expansion_ideas
-	trade_ideas		
-	plutocracy_ideas	
+	quantity_ideas
 	economic_ideas
-	quality_ideas	
-	maritime_ideas	
-	quantity_ideas	
+	quality_ideas
+	trade_ideas
+	offensive_ideas
+	religious_ideas
+	defensive_ideas
 	administrative_ideas
 }
 
