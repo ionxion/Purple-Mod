@@ -2132,6 +2132,19 @@ enlightenment = {
 		modifier = {
 			factor = 0.4
 			potential = {
+				enlightenment_origin = {
+					NOT = { same_continent = PREV }
+				}
+			}
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_university_not_institution_continent
+				has_building = university
+			}
+		}
+		modifier = {
+			factor = 0.4
+			potential = {
 				owner = {
 					has_parliament = yes
 				}
@@ -2177,7 +2190,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 0.5
+			factor = 1.5
 			potential = {
 				enlightenment_origin = {
 					NOT = { same_continent = PREV }
@@ -2209,7 +2222,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 1
+			factor = 3
 			potential = {
 				enlightenment_origin = {
 					NOT = { same_continent = PREV }
@@ -2240,7 +2253,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			potential = {
 				enlightenment_origin = {
 					NOT = { same_continent = PREV }
@@ -2293,7 +2306,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 0.75
+			factor = 1.5
 			scale = yes
 			potential = {
 				owner = {
