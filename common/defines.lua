@@ -68,7 +68,7 @@ NDiplomacy = {
 	TRUST_PENALTY_FOR_SEPARATE_PEACE = 10,			-- Trust penalty for signing a separate peace
 
 	OFFENSIVE_WAR_COOLDOWN = 10,					-- Years between when you can call a country into an offensive war on your behalf
-	MAX_CLIENT_STATES = 10,							-- Max client states for one country
+	MAX_CLIENT_STATES = 8,							-- Max client states for one country
 
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
 	VASSALIZE_BASE_DEVELOPMENT_CAP = 100, 			-- Countries with more total development than this cannot be vassalized
