@@ -16,7 +16,17 @@ military_missions = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = {  } #None
 		trigger = {
-			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+			AND = {
+				army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+				if = {
+					limit = {
+						is_colonial_nation = yes
+					}
+					NOT = {
+						ai = yes
+					}
+				}
+			}
 		}
 		effect = { #This is what you get after you finished your mission.
 			add_country_modifier = {
@@ -61,7 +71,19 @@ military_missions = { #Series name is displayed over the slot?
 	assemble_an_army = {
 		icon = mission_assemble_an_army
 		required_missions = { conquer_states }
-		trigger = { army_size = 80 }
+		trigger = {
+			AND = {
+				army_size = 80
+				if = {
+					limit = {
+						is_colonial_nation = yes
+					}
+					NOT = {
+						ai = yes
+					}
+				}
+			}
+		}
 		effect = {
 			add_country_modifier = {
 				name = "army_enthusiasm"
@@ -282,7 +304,19 @@ administrative_missions = {
 	high_income_mission = {
 		icon = mission_high_income
 		required_missions = {  } #None
-		trigger = { share_of_starting_income = 1.5 }
+		trigger = {
+			AND = {
+				share_of_starting_income = 1.5
+				if = {
+					limit = {
+						is_colonial_nation = yes
+					}
+					NOT = {
+						ai = yes
+					}
+				}
+			}
+		}
 		effect = {
 			add_country_modifier = {
 				name = "growing_economy"
