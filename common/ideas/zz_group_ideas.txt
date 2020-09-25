@@ -1039,7 +1039,7 @@ swahili_ideas = {
 	}
 	
 	trigger = {
-		tag = ZIM
+		primary_culture = swahili
 	}
 	free = yes
 	
