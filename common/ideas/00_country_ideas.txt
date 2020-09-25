@@ -2322,7 +2322,7 @@ NOV_ideas = {
 ETH_ideas = {
 	start = {
 		global_autonomy = -0.05
-		land_attrition = -0.10
+		land_attrition = -0.20
 	}
 	
 	bonus = {
@@ -2338,13 +2338,14 @@ ETH_ideas = {
 		prestige = 1
 	}
 	nagusa_negast = {
-		heir_chance = 0.5
+		global_trade_goods_size_modifier = 0.05
+		development_cost = -0.05
 	}
 	hostile_borders = {
 		defensiveness = 0.20
 	}
 	diplomatic_demeanor = {
-		diplomatic_reputation = 1
+		land_morale = 0.1
 	}
 	the_ark_of_the_covenant = {
 		missionaries = 1
