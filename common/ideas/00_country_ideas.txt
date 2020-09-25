@@ -3519,7 +3519,7 @@ KON_ideas = {
 		global_tax_modifier = 0.1
 	}
 	election_of_manikongos = {
-		heir_chance = 0.5
+		manpower_recovery_speed = 0.1
 	}
 	imported_european_weaponry = {
 		mil_tech_cost_modifier  = -0.1
