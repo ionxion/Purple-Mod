@@ -3705,25 +3705,30 @@ on_province_owner_change = {
 	
 #PR Colonial Nation Province Ownership
 
-	if = {
-		limit = {
-			owner = {
-				is_colonial_nation = yes
-				capital_scope = {
-					NOT = { colonial_region = ROOT }
-				}
-			}
-		}
-	}
-    owner = {
-        overlord = {
-            ROOT = {
-                cede_province = PREV
-            }
-        }
-    }
-	
-}
+#	if = {
+#		limit = {
+#			owner = {
+#				AND = {
+#					NOT = {
+#						ai = yes
+#					}
+#					is_colonial_nation = yes
+#					capital_scope = {
+#						NOT = { colonial_region = ROOT }
+#					}
+#				}
+#			}
+#		}
+#	}
+#    owner = {
+#        overlord = {
+#            ROOT = {
+#                cede_province = PREV
+#            }
+#        }
+#    }
+#	
+#}
 
 # country
 on_parliament_debate_failed = {
