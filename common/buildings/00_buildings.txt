@@ -2089,7 +2089,6 @@ plantations = {
 		tobacco
 		tea
 		cocoa
-		bananas
 	}
 	onmap = yes
 
@@ -2183,10 +2182,10 @@ soldier_households = {
 	}
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
-		#grain
-		#fish
-		#livestock
-		#wine
+		grain
+		fish
+		livestock
+		wine
 	}
 
 	modifier = {
