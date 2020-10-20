@@ -63,24 +63,12 @@ PR_yan_missions2 = {
 		
 		effect = { 
 			693 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
 				add_claim = ROOT
 			}
 			2178 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
 				add_claim = ROOT
 			}		
 			694 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
 				add_claim = ROOT
 			}			
 		}
