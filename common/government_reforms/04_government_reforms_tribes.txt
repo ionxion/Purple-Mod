@@ -92,6 +92,8 @@ tribal_federation = {
 
 	modifiers = {
 		years_of_nationalism = -5
+		tolerance_heretic = 2
+		tolerance_heathen = 2
 	}
 
 	conditional = {
