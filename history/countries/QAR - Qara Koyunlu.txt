@@ -4,10 +4,9 @@ primary_culture = azerbaijani
 #add_accepted_culture = armenian
 add_accepted_culture = kurdish
 add_accepted_culture = al_iraqiya_arabic
-religion = shiite
+religion = sunni
 technology_group = muslim
 capital = 416 # Tabriz
-religious_school = ismaili_school
 
 1390.1.1 = {
 	monarch = {
