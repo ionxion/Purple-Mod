@@ -7,6 +7,7 @@ add_accepted_culture = al_iraqiya_arabic
 religion = sunni
 technology_group = muslim
 capital = 416 # Tabriz
+religious_school = maliki_school
 
 1390.1.1 = {
 	monarch = {
