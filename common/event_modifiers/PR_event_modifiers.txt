@@ -9,3 +9,7 @@ PR_modifier1 = {
 PR_modifier2 = {
 	diplomatic_reputation = 1
 }
+
+PR_estate_clergy_exploration_expedition_mod = {
+	local_development_cost = -0.15
+}

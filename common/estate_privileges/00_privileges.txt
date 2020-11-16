@@ -1906,6 +1906,57 @@ estate_burghers_free_enterprise = {
 	}
 }
 
+PR_estate_clergy_exploration_expedition = {
+	icon = privilege_grant_new_world_charter
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	
+	is_valid = {
+		OR = {
+			tag = QAR
+			has_country_flag = PR_qar_missions4_desc_completed
+		}
+	}
+	
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_clergy
+			value = 4
+			}
+		}
+		has_country_flag = PR_qar_missions4_desc_completed
+	}
+	on_granted = {
+		custom_tooltip = PR_estate_clergy_exploration_expedition_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_terrain = desert }
+				add_province_modifier = {
+					name = PR_estate_clergy_exploration_expedition_mod
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = PR_estate_clergy_exploration_expedition_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = PR_estate_clergy_exploration_expedition_mod }
+				remove_province_modifier = PR_estate_clergy_exploration_expedition_mod
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 estate_cossacks_exploration_expedition = {
 	icon = privilege_grant_new_world_charter
 	land_share = 5
