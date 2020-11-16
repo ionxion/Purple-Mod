@@ -50,7 +50,10 @@ estate_cossacks = {
 		is_colonial_nation = no
 		NOT = { has_reform = celestial_empire }
 		unit_type = eastern
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			tag = BUK
+		}
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
 			has_estate = estate_cossacks
