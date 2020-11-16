@@ -52,7 +52,7 @@ estate_cossacks = {
 		unit_type = eastern
 		OR = {
 			religion_group = christian
-			tag = BUK
+			has_country_flag = formed_bukhara_flag
 		}
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
