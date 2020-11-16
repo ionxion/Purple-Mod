@@ -10,7 +10,6 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			tag = SHY
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
 			OR = {
@@ -101,11 +100,11 @@ country_decisions = {
 					NOT = { government = monarchy }
 					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes
+				change_government = republic
 			}
 			if = {
 				limit = { is_revolutionary = no }
-				add_government_reform = iqta
+				add_government_reform = cossacks_reform
 			}
 			change_technology_group = eastern
 			change_unit_type = eastern
