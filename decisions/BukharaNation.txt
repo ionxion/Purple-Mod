@@ -79,8 +79,8 @@ country_decisions = {
 				limit = { is_revolutionary = no }
 				add_government_reform = iqta
 			}
-			change_technology_group = muslim
-			change_unit_type = muslim
+			change_technology_group = eastern
+			change_unit_type = eastern
 			set_global_flag = bukhara_formed
 			#country_event = { id = ideagroups.1 } #Swap Ideas		#Removed for now, add back if Bukhara gets own ideas
 			set_country_flag = formed_bukhara_flag
