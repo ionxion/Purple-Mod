@@ -23,7 +23,22 @@ country_decisions = {
 			NOT = { has_country_flag = bukharan_nation }
 		}
 		provinces_to_highlight = {
-			province_id = 442
+			OR = {
+				province_id = 2370 
+				province_id = 440 
+				province_id = 2362 
+				province_id = 1973 
+				province_id = 441 
+				province_id = 442 #Bukhara
+				province_id = 453 
+				province_id = 454
+				province_id = 1967 
+				province_id = 458
+				province_id = 460 
+				province_id = 457 
+				province_id = 2356 
+				province_id = 2364
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -33,7 +48,20 @@ country_decisions = {
 			has_institution = feudalism
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
+			owns_core_province = 2370 
+			owns_core_province = 440 
+			owns_core_province = 2362 
+			owns_core_province = 1973 
+			owns_core_province = 441 
 			owns_core_province = 442 #Bukhara
+			owns_core_province = 453 
+			owns_core_province = 454
+			owns_core_province = 1967 
+			owns_core_province = 458
+			owns_core_province = 460 
+			owns_core_province = 457 
+			owns_core_province = 2356 
+			owns_core_province = 2364
 			NOT = { 
 				overlord_of = SIB
 			}
