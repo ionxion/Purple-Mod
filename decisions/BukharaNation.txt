@@ -3,7 +3,6 @@ country_decisions = {
 	bukharan_nation = {
 		major = yes
 		potential = {
-			culture_group = altaic
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_bukhara_flag }
@@ -11,6 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			tag = SHY
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
 			OR = {
