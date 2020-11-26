@@ -42,7 +42,7 @@ capital = 272 # Vilnius
 		dip = 3
 		mil = 1
 	}
-	religion = catholic
+	religion = orthodox
 }
 
 1440.1.1 = {
