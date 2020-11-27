@@ -12,7 +12,6 @@ base_manpower = 1
 capital = "Vinnytsia"
 is_city = yes
 #fort_15th = yes #Bratslav Castle
-add_local_autonomy = 25
 add_core = KIE
 add_core = LIT
 discovered_by = western
