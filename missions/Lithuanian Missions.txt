@@ -38,8 +38,6 @@ lithuanian_missions_1 = {
 		icon = mission_luther_theses
 		required_missions = { develop_ukraine_1 }
 		trigger = {
-			NOT = { current_age = age_of_discovery }
-			NOT = { current_age = age_of_reformation }
 			religious_unity = 1
 		}
 		effect = {
