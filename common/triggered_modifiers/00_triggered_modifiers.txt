@@ -870,7 +870,7 @@ defense_of_the_empire_modifier = {
 }
 
 ######################################
-# CN player nerfs
+# PR CN player nerfs
 ######################################
 
 PR_player_cn = {
