@@ -20,3 +20,5 @@
  COT_DOWNGRADE_CONFIRM_DESC:0 "Downgrade to $NAME|Y$:\n$DESCRIPTION$.\nThis will provide the following benefits:\n$BENEFITS$\n"
  PR_african_colonist_reform:0 "Land Reclamation"
  PR_african_colonist_reform_desc:0 "The jungle has long been untamed and wild, to further our interests these areas must be reclaimed for human use."
+ grand_duchy_reform:0 "Grand Kingdom"
+ grand_duchy_reform_desc:0 "Our region never had many emperors, instead it is our kings that have united and led the various peoples within our borders to greatness."
