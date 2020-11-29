@@ -13,3 +13,7 @@ PR_modifier2 = {
 PR_estate_clergy_exploration_expedition_mod = {
 	local_development_cost = -0.15
 }
+
+PR_LIT_mission = {
+	num_accepted_cultures = 1
+}

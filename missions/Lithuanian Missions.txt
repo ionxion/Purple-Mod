@@ -373,6 +373,10 @@ lithuanian_missions_slot = {
 			owns_core_province = 285
 		}
 		effect = {
+			add_country_modifier = {
+				name = "PR_LIT_mission"
+				duration = -1
+			}
 			add_mercantilism = 2
 			if = {
 				limit = {
