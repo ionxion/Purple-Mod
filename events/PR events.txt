@@ -1,0 +1,54 @@
+########################################
+# PR Events                            #
+########################################
+
+namespace = PR_events
+
+# Revealing Africa to Africans
+country_event = {
+    id = PR_events.1
+    title = "PR_events.1.t"
+    desc = "PR_events.1.d"
+    picture = COURT_eventPicture
+
+    trigger = {
+        OR = {
+            tag = MOR
+            tag = SON
+            tag = ZAN
+            tag = ETH
+            tag = KON
+        }
+        NOT = { 
+			has_country_flag = PR_discover_africa_flag
+		}
+    }
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+	
+    immediate = {
+		hidden_effect = {
+			set_country_flag = PR_discover_africa_flag
+			africa_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}			
+			southern_africa_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+		}
+	}
+	
+	option = {
+        name = "PR_events.1.a"
+		custom_tooltip = PR_events.1.a
+		hidden = yes
+		ai_chance = {
+		}
+    }
+}
