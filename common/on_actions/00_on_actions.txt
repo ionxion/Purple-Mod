@@ -3723,6 +3723,21 @@ on_province_owner_change = {
 		}
 	}
 	
+# PR Adjacent fort 182 day fort protection - thanks to Gasior from MJL
+
+	if = {
+		limit = {
+			has_province_flag = PR_new_conquest_fort_delay
+		}
+		clr_province_flag = PR_new_conquest_fort_delay
+	}
+	if = {
+		limit = {
+			fort_level = 2
+		}
+		set_province_flag = PR_new_conquest_fort_delay
+	}
+	
 }
 
 # country
