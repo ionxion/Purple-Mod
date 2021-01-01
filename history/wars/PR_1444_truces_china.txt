@@ -5,6 +5,7 @@ war_goal = {
 	province = 2173 # Yuanling
 }
 
+# Truce between Jianzhou and northern Chinese
 1443.1.11 = {
 	add_attacker = OIR
 	add_attacker = MJZ
@@ -13,7 +14,8 @@ war_goal = {
 	add_defender = QIN
 }
 
-#Peace and end of war
+# Peace and end of war
+
 1444.1.1 = {
 	rem_attacker = OIR
 	rem_attacker = MJZ
