@@ -9,7 +9,7 @@ merc__local_free_company = {
     cavalry_cap = 2
     cost_modifier = 0.75
     trigger = {
-        total_development = 150
+        total_development = 100
     }
     # No home province means local mercenary company
 }
@@ -20,7 +20,7 @@ merc__local_small_company = {
     artillery_weight = 0.0
     cavalry_cap = 2
     trigger = {
-        NOT = { total_development = 150 }
+        NOT = { total_development = 100 }
     }
     cost_modifier = 0.3
     modifier = {
@@ -53,7 +53,7 @@ merc__local_grand_company = {
     cavalry_cap = 2
     cost_modifier = 0.75
     trigger = {
-        total_development = 150
+        total_development = 100
     }
     # No home province means local mercenary company
 }
@@ -65,7 +65,7 @@ merc__local_independent_army = {
     cavalry_cap = 2
     cost_modifier = 0.75
     trigger = {
-        total_development = 150
+        total_development = 100
     }
     # No home province means local mercenary company
 }
