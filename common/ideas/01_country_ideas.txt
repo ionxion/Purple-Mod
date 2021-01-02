@@ -166,3 +166,42 @@ BUK_ideas = {
 		movement_speed = 0.10	
 	}
 }
+
+PR2_ideas = {
+    start = {
+        global_regiment_cost = -0.10
+        global_manpower_modifier = 0.10
+    }
+    bonus = {
+        discipline = 0.05
+    }
+    trigger = {
+        tag = PR2
+    }
+    free = yes
+    PR2_1 = {
+        advisor_cost = -0.15
+    }
+    PR2_2 = {
+        infantry_power = 0.10
+		years_of_nationalism = -5
+    }
+    PR2_3 = {
+        global_missionary_strength = 0.02
+		administrative_efficiency = 0.05
+    }
+    PR2_4 = {
+        land_morale = 0.10
+    }
+    PR2_5 = {
+        num_accepted_cultures = 2
+    }
+    PR2_6 = {
+        monarch_admin_power = 1
+		yearly_absolutism = 0.2
+    }
+    PR2_7 = {
+        yearly_absolutism = 1
+        legitimacy = 1
+    }
+}
