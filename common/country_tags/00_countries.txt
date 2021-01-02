@@ -959,3 +959,6 @@ PR1 = "countries/Jiangsu.txt"
 
 #PR 1.31 Import changes
 SIA = "countries/Siam.txt"
+
+#PR Africa Tags:
+PR2 = "countries/PRSokoto.txt"
