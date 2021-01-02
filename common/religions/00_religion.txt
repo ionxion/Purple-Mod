@@ -838,6 +838,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				NOT = { has_country_modifier = hanafi_scholar_modifier }
 				OR = {
 					alliance_with = FROM
@@ -878,6 +879,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
@@ -917,6 +919,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
@@ -956,6 +959,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
@@ -996,6 +1000,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
@@ -1038,6 +1043,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
@@ -1077,6 +1083,7 @@ muslim = {
 					}
 					NOT = { piety = -0.5 }
 				}
+				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
 					alliance_with = FROM
 					is_subject_of = FROM
