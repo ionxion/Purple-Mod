@@ -6,13 +6,6 @@ country_decisions = {
 		potential = {
 			AND = { 
 				religion_group = muslim
-				NOT = { has_country_modifier = hanafi_scholar_modifier }
-				NOT = { has_country_modifier = hanbali_scholar_modifier }
-				NOT = { has_country_modifier = maliki_scholar_modifier }
-				NOT = { has_country_modifier = shafii_scholar_modifier }
-				NOT = { has_country_modifier = ismaili_scholar_modifier }
-				NOT = { has_country_modifier = jafari_scholar_modifier }
-				NOT = { has_country_modifier = zaidi_scholar_modifier }
 				NOT = { has_country_modifier = PR_muslim_school_cooldown }
 			}
 		}
