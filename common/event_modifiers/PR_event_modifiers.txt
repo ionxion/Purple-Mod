@@ -17,3 +17,6 @@ PR_estate_clergy_exploration_expedition_mod = {
 PR_LIT_mission = {
 	num_accepted_cultures = 1
 }
+
+PR_muslim_school_cooldown = {
+}
