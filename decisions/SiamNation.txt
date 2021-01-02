@@ -5,14 +5,13 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_malaya_flag }
+			NOT = { has_country_flag = formed_siam_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = SIA }
 			culture_group = southeastasian_group
-			NOT = { has_reform = steppe_horde }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
