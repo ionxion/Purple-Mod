@@ -1,3 +1,5 @@
+#Formable for Sokoto tag pr2
+
 country_decisions = {
 
 	PR_sokoto_nation = {
@@ -10,7 +12,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = SIA }
+			NOT = { exists = PR2 }
 			culture_group = mande
 			is_colonial_nation = no
 			OR = {
