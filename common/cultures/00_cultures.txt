@@ -7303,7 +7303,63 @@ mande = {
 			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
 			Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
+	}	
+	
+	#PR Changes
+	
+	fulani = {
+		primary = FUL
+		dynasty_names = {
+			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
+			Tabakali Bohi Dundu Jeegi Musa Njai
+			Kan Talla "Lamin Bal" Wan Ly An
+		}
+		male_names = {
+			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul 
+			Kader Moktar Hamat Yusuf Ali Mamadu Biran
+		}
+		female_names = {
+			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena 
+			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
+		}
 	}
+	senegambian = {
+		primary = JOL
+		dynasty_names = {
+			"N'Dyaye" "Penda" "Mba" "Tyukuli" "Sare" Kompass
+			Birayamb Keme Bakar Fak "Kuran Kan" Daagulen
+			Sare Samba Dyakher
+		}
+		male_names = {
+			"N'Dyelen Mbey" "Tase Daagulen" Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun Bakar 
+			Bakan Birawa Bakaa Mba Mbanyi
+		}
+		female_names = {
+			"Fatoumata Sall" Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam Nafissa Namandjé Namiss 
+			Nana Asha Chausiku Eshe Furaha Imani Kamaria Marjani Mchumba Mwanajuma Nia Nuru Nyah Sanaa Sauda Subira Zuri
+		}
+	}
+	mossi = {
+		primary = MSI
+		dynasty_names = {
+			"Tenga Niama" "Moogo" "Naaba"
+			Addy Afrifa Sadami Sabah Zakari
+			Offei Donkor Akoto
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi 
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo 
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
+			Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
+			Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
+			Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
+			Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	
 	male_names = {
 		Abi-Bakr Abubakari Akoi Alayaman Ali Ali Ali-Fay Ali-Kolon Ali-Zalil Badä Bakr Bakr-Kanbu Bamari Bankanu
 		Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud David Dawud David Demba Diara Düru
@@ -7467,38 +7523,7 @@ sahelian = {
 			Günay Günel Konul Leyla Parvana Parvin Sevda SevInc SevInj Tarana Vüsala Zemfira Zeynab
 		}
 	}		
-	senegambian = {
-		primary = JOL
-		dynasty_names = {
-			"N'Dyaye" "Penda" "Mba" "Tyukuli" "Sare" Kompass
-			Birayamb Keme Bakar Fak "Kuran Kan" Daagulen
-			Sare Samba Dyakher
-		}
-		male_names = {
-			"N'Dyelen Mbey" "Tase Daagulen" Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun Bakar 
-			Bakan Birawa Bakaa Mba Mbanyi
-		}
-		female_names = {
-			"Fatoumata Sall" Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam Nafissa Namandjé Namiss 
-			Nana Asha Chausiku Eshe Furaha Imani Kamaria Marjani Mchumba Mwanajuma Nia Nuru Nyah Sanaa Sauda Subira Zuri
-		}
-	}			
-	fulani = {
-		primary = FUL
-		dynasty_names = {
-			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
-			Tabakali Bohi Dundu Jeegi Musa Njai
-			Kan Talla "Lamin Bal" Wan Ly An
-		}
-		male_names = {
-			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul 
-			Kader Moktar Hamat Yusuf Ali Mamadu Biran
-		}
-		female_names = {
-			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena 
-			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
-		}
-	}
+				
 }
 
 west_african = {
@@ -7586,26 +7611,6 @@ west_african = {
 			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
 			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
 			Simisola Temitope Titilayo Yejide Yewande
-		}
-	}
-	mossi = {
-		primary = MSI
-		dynasty_names = {
-			"Tenga Niama" "Moogo" "Naaba"
-			Addy Afrifa Sadami Sabah Zakari
-			Offei Donkor Akoto
-		}
-		male_names = {
-			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi 
-			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo 
-			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
-		}
-		female_names = {
-			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
-			Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
-			Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
-			Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
-			Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
 	}
 	dagomba = {
