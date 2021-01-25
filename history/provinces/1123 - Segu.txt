@@ -2,7 +2,7 @@
 
 owner = ZAF
 controller = ZAF
-culture = bambara
+culture = soninke
 is_city = yes
 base_manpower = 2
 religion = shamanism #Fetishism
