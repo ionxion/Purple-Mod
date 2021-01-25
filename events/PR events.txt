@@ -18,6 +18,8 @@ country_event = {
             tag = ZAN
             tag = ETH
             tag = KON
+			tag = MAM
+			tag = MAL
         }
         NOT = { 
 			has_country_flag = PR_discover_africa_flag
@@ -37,6 +39,11 @@ country_event = {
 				}
 			}			
 			southern_africa_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			near_east_superregion = {
 				ROOT = {
 					discover_province = PREV
 				}
