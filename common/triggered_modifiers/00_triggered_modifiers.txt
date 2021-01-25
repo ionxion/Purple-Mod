@@ -887,3 +887,18 @@ PR_player_cn = {
 	manpower_recovery_speed = -0.25
 	sailors_recovery_speed = -0.25
 }
+
+PR_player_cn_navy = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		num_of_heavy_ship = 10
+	}
+	global_sailors_modifier = -0.5
+	ship_recruit_speed = 0.5
+	local_ship_repair = -0.5
+	sailor_maintenance_modifer = 0.2
+	heavy_ship_cost = 0.2
+}
