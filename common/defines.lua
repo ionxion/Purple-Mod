@@ -285,7 +285,7 @@ NDiplomacy = {
 	PO_HUMILIATE_PRESTIGE_HIT = 20,
 	PO_HUMILIATE_POWER_GAIN = 100,
 	PO_SPREAD_REVOLUTION_POWER_GAIN = 1.0,			-- Multiplied by the amount of development spread to
-	PO_SPREAD_REVOLUTION_MAX_POWER_GAIN = 999,		-- Total maximum power gain in each ability from spread the revolution
+	PO_SPREAD_REVOLUTION_MAX_POWER_GAIN = 0,		-- Total maximum power gain in each ability from spread the revolution
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
 
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
