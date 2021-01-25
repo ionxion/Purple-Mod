@@ -2,7 +2,7 @@
 
 owner = JNN #In effect independant in the wake of Mali's weakening
 controller = JNN
-culture = bozo
+culture = mossi
 is_city = yes
 base_manpower = 3
 religion = shamanism #Fetishism
