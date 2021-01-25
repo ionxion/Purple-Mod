@@ -1,5 +1,10 @@
 #1115 - Brakna
 
+owner = FUL
+controller = FUL
+add_core = FUL
+trade_goods = slaves
+is_city = yes
 culture = fulani
 capital = "Aligh"
 religion = shamanism #Fetishism

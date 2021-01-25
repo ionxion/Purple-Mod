@@ -1,5 +1,10 @@
 # No previous file for Tekrur
 
+owner = FUL
+controller = FUL
+add_core = FUL
+trade_goods = slaves
+is_city = yes
 culture = fulani
 religion = shamanism #Fetishism
 capital = "Tekrur"

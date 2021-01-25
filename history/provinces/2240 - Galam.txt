@@ -1,5 +1,10 @@
 # No previous file for Galam
 
+owner = FUL
+controller = FUL
+add_core = FUL
+trade_goods = iron
+is_city = yes
 culture = fulani 
 religion = shamanism #Fetishism
 capital = "Galam"
