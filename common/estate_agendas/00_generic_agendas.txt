@@ -6301,7 +6301,13 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6310,7 +6316,13 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6321,7 +6333,13 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6333,7 +6351,13 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6343,7 +6367,13 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6355,16 +6385,34 @@ estate_nobles_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -6482,7 +6530,13 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6491,7 +6545,13 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6502,7 +6562,13 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6514,7 +6580,13 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6524,7 +6596,13 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6536,16 +6614,34 @@ estate_rajput_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -6663,7 +6759,13 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6672,7 +6774,13 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6683,7 +6791,13 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6695,7 +6809,13 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6705,7 +6825,13 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6717,16 +6843,34 @@ estate_maratha_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -6845,7 +6989,13 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6854,7 +7004,13 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6865,7 +7021,13 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6877,7 +7039,13 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6887,7 +7055,13 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -6899,16 +7073,34 @@ estate_burghers_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -7013,7 +7205,7 @@ estate_vaisyas_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+    ttask_requirements = {
 		event_target:agenda_province = {
 			custom_trigger_tooltip = {
 				tooltip = has_manufactory_trigger_tooltip
@@ -7026,7 +7218,13 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7035,7 +7233,13 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7046,7 +7250,13 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7058,7 +7268,13 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7068,7 +7284,13 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7080,16 +7302,34 @@ estate_vaisyas_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -7207,7 +7447,13 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7216,7 +7462,13 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7227,7 +7479,13 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7239,7 +7497,13 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7249,7 +7513,13 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7261,16 +7531,34 @@ estate_jains_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -7392,7 +7680,13 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7401,7 +7695,13 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7412,7 +7712,13 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7424,7 +7730,13 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7434,7 +7746,13 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7446,16 +7764,34 @@ estate_church_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
@@ -7577,7 +7913,13 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = salt
 						}
 					}
-					has_building = wharf
+					OR = {
+						has_building = wharf
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7586,7 +7928,13 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = iron
 						}
 					}
-					has_building = weapons
+					OR = {
+						has_building = weapons
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7597,7 +7945,13 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = dyes
 						}
 					}
-					has_building = textile
+					OR = {
+						has_building = textile
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7609,7 +7963,13 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = incense
 						}
 					}
-					has_building = tradecompany
+					OR = {
+						has_building = tradecompany
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7619,7 +7979,13 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = wine
 						}
 					}
-					has_building = farm_estate
+					OR = {
+						has_building = farm_estate
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
@@ -7631,16 +7997,34 @@ estate_brahmins_build_manufactory_in_y = {
 							trade_goods = chinaware
 						}
 					}
-					has_building = mills
+					OR = {
+						has_building = mills
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else_if = {
 					limit = {
 						trade_goods = coal
 					}
-					has_building = furnace
+					OR = {
+						has_building = furnace
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 				else = {
-					has_building = plantations
+					OR = {
+						has_building = plantations
+						has_building = soldier_households
+						has_building = ramparts
+						has_building = impressment_offices
+						has_building = state_house
+					}
 				}
 			}
 		}
