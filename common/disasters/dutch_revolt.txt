@@ -1,4 +1,4 @@
-dutch_revolt_disaster = {
+#dutch_revolt_disaster = {
 
 	potential = {
 		normal_or_historical_nations = yes
