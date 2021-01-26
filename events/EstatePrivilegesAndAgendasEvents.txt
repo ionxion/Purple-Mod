@@ -102,8 +102,8 @@ country_event = {
 	}
 }
 
-# Estates bailing out the player
-country_event = {
+# Estates bailing out the player 
+# PR event removed country_event = {
 	id = estate_privileges_and_agendas_events.2
 	title = estate_privileges_and_agendas_events.2.name
 	desc = estate_privileges_and_agendas_events.2.desc
