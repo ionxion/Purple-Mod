@@ -55,21 +55,24 @@ country_event = {
 		is_subject = no
 		num_of_cities = 10
 		OR = {
-			AND = {
-				CAS = { is_female = yes }
-				ARA = { is_female = no }
-			}
-			AND = {
-				CAS = { is_female = no }
-				ARA = { is_female = yes }
-			}
-			ARA = {
-				ai = yes
-				has_regency = yes
-			}
-			CAS = {
-				ai = yes
-				has_regency = yes
+			is_year = 1485
+			OR = {
+				AND = {
+					CAS = { is_female = yes }
+					ARA = { is_female = no }
+				}
+				AND = {
+					CAS = { is_female = no }
+					ARA = { is_female = yes }
+				}
+				ARA = {
+					ai = yes
+					has_regency = yes
+				}
+				CAS = {
+					ai = yes
+					has_regency = yes
+				}
 			}
 		}
 	}
@@ -99,6 +102,7 @@ country_event = {
 	option = {		# Let us bind their Dynasty to ours
 		name = "flavor_spa.EVTOPTA3716"
 		ai_chance = { factor = 90 }
+		set_country_flag = PR_iberian_wedding_late
 		if = {
 			limit = { tag = CAS }
 			create_union = ARA
