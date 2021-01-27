@@ -2,7 +2,7 @@
 
 namespace = bullion_famine
 
-country_event = {
+#country_event = {
 	id = bullion_famine.1
 	title = "bullion_famine.1.t"
 	desc = "bullion_famine.1.d"
@@ -33,7 +33,7 @@ country_event = {
 }
 
 # Reward for owning gold provinces outside of Europe as a European country
-country_event = {
+#country_event = {
 	id = bullion_famine.2
 	title = "bullion_famine.2.t"
 	desc = "bullion_famine.2.d"
