@@ -1,6 +1,7 @@
-#dutch_revolt_disaster = {
+dutch_revolt_disaster = {
 
 	potential = {
+		always = no
 		normal_or_historical_nations = yes
 		is_religion_enabled = protestant
 		NOT = { has_country_flag = bur_dutch_integration }
