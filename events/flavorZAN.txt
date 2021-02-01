@@ -284,7 +284,7 @@ country_event = {
 		name = flavor_zan.5.a #Suleiman takes the throne.
 		ai_chance = { factor = 1 }
 		set_country_flag = zan_plotting_viziers
-		add_stability = -2
+		add_stability = -1
 		define_ruler = {
 			name = "Suleiman"
 			dynasty = al-Mawahib
@@ -311,7 +311,7 @@ country_event = {
 		name = flavor_zan.5.b #Muhammad al-Muzlum takes the throne.
 		ai_chance = { factor = 0 }
 		set_country_flag = zan_plotting_viziers
-		add_stability = -2
+		add_stability = -1
 		define_ruler = {
 			name = "Muhammad"
 			dynasty = "al-Mazlum"
