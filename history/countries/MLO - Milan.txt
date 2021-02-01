@@ -132,6 +132,18 @@ change_estate_land_share = {
 	}
 }
 
+1439.1.1 = {
+	leader = { 
+		name = "Ludovico Sforza"       	
+		type = general	
+		
+		fire = 2	
+		shock = 4	
+		manuever = 3	
+		siege = 2
+	}
+}
+
 1447.8.13 = {
 	government = republic
 	add_government_reform = ambrosian_republic
