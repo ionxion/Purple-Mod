@@ -352,7 +352,7 @@ country_event = {
 
 
 #Unpopular coupmaker
-country_event = {
+# event removed country_event = {
 	id = flavor_zan.6
 	title = flavor_zan.6.t
 	desc = flavor_zan.6.d
@@ -384,7 +384,7 @@ country_event = {
 
 #Plotting Viziers
 #A general event relating to the great number of coups in the politically unstable period between 1442 and the end of the 15th century.
-country_event = {
+# event removed country_event = {
 	id = flavor_zan.7
 	title = flavor_zan.7.t
 	desc = flavor_zan.7.d
