@@ -770,6 +770,7 @@ great_peasants_war_triggered_modifier = {
 		}
 	}
 	trigger = {
+		always = no
 		is_part_of_hre = yes
 		NOT = { has_reform = peasants_republic }
 	}
@@ -787,6 +788,7 @@ great_peasants_war_concessions_triggered_modifier = {
 		}
 	}
 	trigger = {
+		always = no
 		is_part_of_hre = yes
 		NOT = { has_reform = peasants_republic }
 	}
