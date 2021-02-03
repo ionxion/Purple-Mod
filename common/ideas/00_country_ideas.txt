@@ -3557,25 +3557,28 @@ MAL_ideas = {
 	free = yes		# will be added at load
 
 	restore_malian_suzerainity = {
-		vassal_income = 0.20
+		colonists = 1
+		range = 0.25
 	}
 	gold_of_bure = {
 		production_efficiency = 0.10
 	}
 	reclamation_of_land = {
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.20
 	}
 	mandinka_warrior_spirit = {
 		discipline = 0.05
 	}
 	lost_fleet_of_abubukari_ii = {
 		navy_tradition = 0.5
+		heavy_ship_power = 0.1
 	}
 	seek_new_markets_for_salt = {
 		merchants = 1
 	}
 	west_african_slave_trade = {
 		trade_efficiency = 0.1
+		global_tariffs = 0.15
 	}
 }
 
