@@ -102,8 +102,8 @@ country_event = {
 	}
 }
 
-# Estates bailing out the player 
-# PR event removed country_event = {
+# Estates bailing out the player PR event removed from the game
+country_event = {
 	id = estate_privileges_and_agendas_events.2
 	title = estate_privileges_and_agendas_events.2.name
 	desc = estate_privileges_and_agendas_events.2.desc
@@ -111,6 +111,7 @@ country_event = {
 
 	trigger = {
 		
+		always = no
 		NOT = { crown_land_share = 11 }
 		OR = {
 			AND = {
@@ -162,10 +163,6 @@ country_event = {
 		}
 	}
 
-	option = { # Refuse the Bail Out
-		name = estate_privileges_and_agendas_events.2.b
-	}
-
 	option = { # Accept the Bail Out
 		name = estate_privileges_and_agendas_events.2.a
 		custom_tooltip = seize_land_unavailable_from_privilege
@@ -196,6 +193,9 @@ country_event = {
 		}
 	}
 
+	option = { # Refuse the Bail Out
+		name = estate_privileges_and_agendas_events.2.b
+	}
 }
 
 country_event = {
