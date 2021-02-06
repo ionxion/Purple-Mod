@@ -1,24 +1,7 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = h_reform_prefecture
+government_rank = 1
 technology_group = chinese
 religion = confucianism
-primary_culture = sichuanese
-add_accepted_culture = xiang
-add_accepted_culture = hubei
-capital = 682	#Wuchang
-
-1437.3.31 = { 
-	monarch = {
-		name = "Kiyosada"
-		dynasty = "Chu"
-		birth_date = 1410.1.2
-#		death_date = 1488.2.12
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = lawgiver_personality
-	add_ruler_personality = strict_personality
-	add_ruler_personality = greedy_personality
-}
+primary_culture = xiang
+capital = 5638 #Yiyang

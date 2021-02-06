@@ -954,8 +954,6 @@ SYN = "countries/Synthetics.txt"
 #TEM = countries/KnightsTemplar.txt
 #TRL = countries/Trapalanda.txt
 
-#PR China Tags:
-PR1 = "countries/Jiangsu.txt"
 
 #PR 1.31 Import changes
 SIA = "countries/Siam.txt"
