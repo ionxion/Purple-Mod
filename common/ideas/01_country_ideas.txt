@@ -81,10 +81,10 @@ PR2_ideas = {
     }
     PR2_6 = {
         monarch_admin_power = 1
-		yearly_absolutism = 0.2
     }
     PR2_7 = {
         yearly_absolutism = 1
         legitimacy = 1
+		devotion = 1
     }
 }
