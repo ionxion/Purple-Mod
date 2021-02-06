@@ -13,6 +13,9 @@ h_china_all_tier4_5 = {
 			tag = WUU
 		}
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
 	}
@@ -53,7 +56,8 @@ h_china_all_tier4_5 = {
 				}
 			}		
         }
-		trigger = {
+		trigger = {	
+			has_reform = h_reform_warlord_4
 			if = {
 				limit = {
 					was_player = yes
@@ -111,6 +115,7 @@ h_china_all_tier4_5 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			has_reform = h_reform_warlord_4
 			if = {
 				limit = {
 					was_player = yes
@@ -148,6 +153,7 @@ h_china_all_tier4_5 = {
         	province_id = 1816
         }
 		trigger = {
+			has_reform = h_reform_warlord_4
 			if = {
 				limit = {
 					was_player = yes
@@ -186,6 +192,7 @@ h_china_all_tier4_5 = {
 		required_missions = { china_forbidden_city }
 		position = 10
 		trigger = {
+			has_reform = h_reform_warlord_4
 			if = {
 				limit = {
 					was_player = yes

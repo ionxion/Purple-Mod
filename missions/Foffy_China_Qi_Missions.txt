@@ -196,6 +196,7 @@ h_qic_col_war2_2 = {
 	potential = {
 		tag = QIC
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -208,6 +209,11 @@ h_qic_col_war2_2 = {
 		position = 5
 		required_missions = { h_qic_col_war1_3_4 }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -269,6 +275,7 @@ h_qic_col_war2_4 = {
 	potential = {
 		tag = QIC
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -281,6 +288,11 @@ h_qic_col_war2_4 = {
 		position = 5
 		required_missions = { h_qic_col_war1_3_4 }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -308,6 +320,11 @@ h_qic_col_war2_4 = {
 			province_id = 4233
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -337,6 +354,11 @@ h_qic_col_war2_4 = {
 			province_id = 726
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -363,6 +385,7 @@ h_qic_col_war2_3 = {
 	potential = {
 		tag = QIC
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -379,6 +402,11 @@ h_qic_col_war2_3 = {
 			province_id = 1816
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -416,6 +444,11 @@ h_qic_col_war2_3 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -455,6 +488,8 @@ h_qic_col_war3_1 = {
 	potential = {
 		tag = QIC
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -473,6 +508,10 @@ h_qic_col_war3_1 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -525,6 +564,10 @@ h_qic_col_war3_1 = {
 		}
 		
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -583,6 +626,10 @@ h_qic_col_war3_1 = {
 		required_missions = { h_qic_col_war3_1_4 }
 		
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -612,6 +659,10 @@ h_qic_col_war3_1 = {
 		}
 		
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

@@ -434,6 +434,7 @@ h_wuu_tier2_2 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -448,6 +449,11 @@ h_wuu_tier2_2 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -559,6 +565,7 @@ h_wuu_tier2_3 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -578,7 +585,12 @@ h_wuu_tier2_3 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
         }
-		trigger = {
+		trigger = {	
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -623,6 +635,7 @@ h_wuu_tier2_4 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -632,6 +645,7 @@ h_wuu_tier2_4 = {
 
 	china_wuu_xiamen_commandery = { #Xiamen Commandery
 		icon = mission_asian_cannon
+		position = 5
 		required_missions = { china_wuu_vassalize_ning }
         provinces_to_highlight = {
 			province_id = 1829 #Xiamen
@@ -640,6 +654,11 @@ h_wuu_tier2_4 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -687,7 +706,12 @@ h_wuu_tier2_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
         }
-		trigger = {
+		trigger = {	
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -729,6 +753,7 @@ h_wuu_tier2_5 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -755,6 +780,11 @@ h_wuu_tier2_5 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -791,6 +821,8 @@ h_wuu_tier3_2 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -804,6 +836,10 @@ h_wuu_tier3_2 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -828,6 +864,8 @@ h_wuu_tier3_3 = {
 	potential = {
 		tag = WUU
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -852,6 +890,10 @@ h_wuu_tier3_3 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -907,6 +949,10 @@ h_wuu_tier3_3 = {
         	province_id = 5556
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

@@ -237,6 +237,7 @@ h_cxi_col_war2_2 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -255,6 +256,11 @@ h_cxi_col_war2_2 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -297,6 +303,11 @@ h_cxi_col_war2_2 = {
 			}
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -333,6 +344,11 @@ h_cxi_col_war2_2 = {
 		position = 7
 		required_missions = { h_cxi_col_war2_2_6 }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -369,6 +385,7 @@ h_cxi_col_war2_4 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -388,6 +405,11 @@ h_cxi_col_war2_4 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -433,6 +455,11 @@ h_cxi_col_war2_4 = {
 		position = 6
 		required_missions = { h_cxi_col_war2_4_5 }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -461,6 +488,7 @@ h_cxi_col_war2_3 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -476,6 +504,11 @@ h_cxi_col_war2_3 = {
 			owned_by = XIN
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -503,6 +536,7 @@ h_cxi_col_war2_5 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -518,6 +552,11 @@ h_cxi_col_war2_5 = {
 			owned_by = LUO
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -563,6 +602,8 @@ h_cxi_col_war3_5 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -577,6 +618,10 @@ h_cxi_col_war3_5 = {
 			h_cxi_col_war2_4_5
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -621,6 +666,8 @@ h_cxi_col_war3_1 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -639,6 +686,10 @@ h_cxi_col_war3_1 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -668,6 +719,10 @@ h_cxi_col_war3_1 = {
 		}
 		
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -680,7 +735,7 @@ h_cxi_col_war3_1 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "h_cxi_col_war3_1_8_reward"
-				duration = 9125
+				duration = 3650
 			}
 		}
 	}
@@ -693,6 +748,8 @@ h_cxi_col_war3_3 = {
 	potential = {
 		tag = CXI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -707,6 +764,10 @@ h_cxi_col_war3_3 = {
 			h_cxi_col_war2_4_6 
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

@@ -278,6 +278,7 @@ h_csh_tier_2_2 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -287,6 +288,7 @@ h_csh_tier_2_2 = {
 	
 	china_csh_yinchuan_fort = { #Yinchuan Fort
 		icon = mission_tear_down_spanish_strongholds
+		position = 4
 		required_missions = { china_csh_conquer_xia }
         provinces_to_highlight = {
         	province_id = 709
@@ -297,6 +299,11 @@ h_csh_tier_2_2 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -341,6 +348,11 @@ h_csh_tier_2_2 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -382,6 +394,7 @@ h_csh_tier2_3 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -397,6 +410,11 @@ h_csh_tier2_3 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -431,6 +449,11 @@ h_csh_tier2_3 = {
 			} 
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -492,6 +515,11 @@ h_csh_tier2_3 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -542,6 +570,7 @@ h_csh_tier_2_4 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -563,6 +592,11 @@ h_csh_tier_2_4 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -633,6 +667,8 @@ h_csh_tier3_1 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -654,6 +690,10 @@ h_csh_tier3_1 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -690,6 +730,8 @@ h_csh_tier3_3 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -698,6 +740,7 @@ h_csh_tier3_3 = {
 
 	china_csh_hanzhong_state = { #hanzhong state
 		icon = mission_assemble_an_army
+		position = 6
 		required_missions = { china_csh_eradicate_shu }
         provinces_to_highlight = {
 			OR = {
@@ -708,6 +751,10 @@ h_csh_tier3_3 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -749,6 +796,8 @@ h_csh_tier_3_4 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -757,6 +806,7 @@ h_csh_tier_3_4 = {
 	
 	china_csh_expand_east = { #Expand Eastward
 		icon = mission_kowtow
+		position = 5
 		required_missions = { china_csh_subdue_qin }
         provinces_to_highlight = {
 			OR = {
@@ -769,6 +819,10 @@ h_csh_tier_3_4 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -797,6 +851,8 @@ h_csh_tier_3_5 = {
 	potential = {
 		tag = CSH
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -810,6 +866,10 @@ h_csh_tier_3_5 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -834,6 +894,10 @@ h_csh_tier_3_5 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

@@ -492,6 +492,7 @@ h_yue_tier2_2 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -501,10 +502,16 @@ h_yue_tier2_2 = {
 
 	china_yue_prepare_battle_fleet = { #Prepare Battle Fleet
 		icon = mission_invade_island
+		position = 6
 		required_missions = { china_yue_construct_trade_fleet }
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -612,6 +619,7 @@ h_yue_tier2_3 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -621,6 +629,7 @@ h_yue_tier2_3 = {
 
 	china_yue_develop_guangzhou = { #Devevlop Guangzhou
 		icon = mission_establish_mint_towns
+		position = 5
 		required_missions = { china_yue_destroy_huai }
         provinces_to_highlight = {
 			OR = {
@@ -633,6 +642,11 @@ h_yue_tier2_3 = {
 			} 
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -681,6 +695,11 @@ h_yue_tier2_3 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -743,6 +762,7 @@ h_yue_tier2_4 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -752,12 +772,18 @@ h_yue_tier2_4 = {
 
 	china_yue_seize_vietnam = { #Seize Vietnam
 		icon = french_indochina
+		position = 5
 		required_missions = { china_yue_red_river_delta }
         provinces_to_highlight = {
 			culture = vietnamese
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -796,6 +822,11 @@ h_yue_tier2_4 = {
 			NOT = { religion = ROOT }
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -844,6 +875,8 @@ h_yue_tier3_2 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -852,10 +885,15 @@ h_yue_tier3_2 = {
 
 	china_yue_chinese_armada = { #Chinese Armada
 		icon = mission_junk_boat
+		position = 7
 		required_missions = { china_yue_prepare_battle_fleet }
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -884,6 +922,8 @@ h_yue_tier3_3 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -897,6 +937,10 @@ h_yue_tier3_3 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			army_size_percentage = 1
 			army_size = 200
 			trading_bonus = {
@@ -921,6 +965,8 @@ h_yue_tier3_4 = {
 	potential = {
 		tag = YUE
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -945,6 +991,10 @@ h_yue_tier3_4 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

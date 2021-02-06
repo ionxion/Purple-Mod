@@ -391,7 +391,8 @@ china_yue_metalworking = {
 china_yue_tomb_of_zhao_mo = {
 	local_defensiveness = 0.2
 	local_state_maintenance_modifier = -0.1
-	local_tax_modifier = 0.05
+	local_tax_modifier = 0.15
+	local_manpower_modifier = 0.5
 }
 
 china_wuu_min_conquered = {
@@ -406,7 +407,7 @@ china_wuu_ning_vassalized = {
 
 china_wuu_hanghzou_bay_held = {
 	global_own_trade_power = 0.1
-	province_trade_power_modifier = 0.15
+	trade_efficiency = 0.1
 }
 
 china_wuu_monopolize_hangzhou_trade = {
@@ -522,7 +523,7 @@ china_csh_silk_road_entrance = {
 }
 
 china_csh_lower_mongolia_frontier = {
-	local_development_cost = -0.05
+	local_development_cost = -0.1
 }
 
 china_csh_gao_guiying_influence = {

@@ -12,6 +12,8 @@ h_china_all_1 = {
 			tag = YUE
 		}
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -24,6 +26,10 @@ h_china_all_1 = {
 			province_id = 5551
 		}
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes

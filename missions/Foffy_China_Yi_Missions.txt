@@ -481,6 +481,7 @@ china_cyi_tier2_3 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -497,6 +498,11 @@ china_cyi_tier2_3 = {
 			NOT = { religion = ROOT }
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -558,6 +564,11 @@ china_cyi_tier2_3 = {
 			}
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -621,6 +632,7 @@ china_cyi_tier2_4 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
 			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
@@ -636,6 +648,11 @@ china_cyi_tier2_4 = {
 			province_id = 5504 #Chengdu
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -677,6 +694,8 @@ china_cyi_tier3_2 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -691,6 +710,10 @@ china_cyi_tier3_2 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -721,6 +744,8 @@ china_cyi_tier3_3 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -734,6 +759,10 @@ china_cyi_tier3_3 = {
         provinces_to_highlight = {
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -762,6 +791,8 @@ china_cyi_tier3_4 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -778,6 +809,10 @@ china_cyi_tier3_4 = {
 			NOT = { owned_by = ROOT }
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
@@ -807,6 +842,8 @@ china_cyi_tier3_5 = {
 	potential = {
 		tag = CYI
 		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
 			has_reform = h_reform_warlord_3
 			has_reform = h_reform_warlord_4
 		}
@@ -822,6 +859,10 @@ china_cyi_tier3_5 = {
         	province_id = 5504
         }
 		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 			if = {
 				limit = {
 					was_player = yes
