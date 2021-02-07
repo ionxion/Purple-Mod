@@ -330,7 +330,7 @@ china_cyi_nanzhao_kingdom_restored = {
 }
 
 china_cyi_yi_script_modifier = {
-	technology_cost = -0.05
+	technology_cost = -0.1
 	innovativeness_gain = 0.25
 }
 
@@ -433,7 +433,7 @@ china_wuu_wuyue_kingdom = {
 }
 
 china_wuu_tianyi_ge_library = {
-	innovativeness_gain = 0.3
+	innovativeness_gain = 0.5
 }
 
 china_cyi_chengdu_tobacco_modifier = {
