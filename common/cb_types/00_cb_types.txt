@@ -375,6 +375,7 @@ cb_colonial_independance_war = {
 	independence = yes
 
 	prerequisites = {
+		always = no
 		is_subject = yes
 		is_colonial_nation_of = FROM
 	}
