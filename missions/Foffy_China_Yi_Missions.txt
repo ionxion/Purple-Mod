@@ -662,7 +662,7 @@ china_cyi_tier2_4 = {
 			5504 = {
 				trade_share = {
 					country = ROOT
-					share = 50
+					share = 35
 				}
 			}
 		}

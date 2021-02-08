@@ -122,7 +122,7 @@ h_csh_2 = {
 			owns_or_non_sovereign_subject_of = 2184
 			owns_or_non_sovereign_subject_of = 708
 			owns_or_non_sovereign_subject_of = 5507
-			owns_or_non_sovereign_subject_of = 2665
+			owns_or_non_sovereign_subject_of = 5665
 		}
 		effect = {
 			add_country_modifier = {
