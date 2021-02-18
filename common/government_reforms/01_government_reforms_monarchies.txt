@@ -265,7 +265,7 @@ indep_daimyo = {
 
 	modifiers = {
 		infantry_power = 0.1
-		governing_capacity = -150
+		governing_capacity = -50
 	}
 	custom_attributes = {
 		locked_government_type = yes
