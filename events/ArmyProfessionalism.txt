@@ -15,6 +15,15 @@ country_event = {
 	goto = from
 
 	trigger = {
+		FROM = {
+			NOT = {
+				OR = {
+					is_core = ROOT
+					country_or_non_sovereign_subject_holds = ROOT
+					alliance_with = ROOT
+				}
+			}
+		}
 		has_dlc = "Cradle of Civilization"
 		NOT = { tag = REB }
 		OR = {
@@ -47,6 +56,7 @@ country_event = {
 			}
 		}
 	}
+	
 	
 	immediate = {
 		hidden_effect = {
