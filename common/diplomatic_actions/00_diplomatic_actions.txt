@@ -225,6 +225,18 @@ vassalaction = {
 			FROM = { is_at_war = no }
 		}
 	}
+}
+
+guaranteeaction = {
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = { 
+				ai = yes
+			}
+		}
+	}
 	condition = {
 		tooltip = h_tooltip_guaranteecommandery
 		potential = {
@@ -244,18 +256,6 @@ vassalaction = {
 		}
 		allow = {
 			always = no
-		}
-	}
-}
-
-guaranteeaction = {
-	condition = {
-		potential = {
-		}
-		allow = {
-			FROM = { 
-				ai = yes
-			}
 		}
 	}
 }
