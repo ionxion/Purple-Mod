@@ -20,3 +20,8 @@ PR_LIT_mission = {
 
 PR_muslim_school_cooldown = {
 }
+
+PR_events.5.a.1 = {
+	land_morale = -0.5
+	naval_morale = -0.5
+}

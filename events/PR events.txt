@@ -210,3 +210,56 @@ country_event = {
 	option = {
     }
 }
+
+# Colonial overlord bankrupts
+country_event = {
+    id = PR_events.4
+    title = "PR_events.4.t"
+    desc = "PR_events.4.d"
+    picture = COURT_eventPicture
+	is_triggered_only = yes
+	hidden = yes
+	
+    trigger = {
+		is_bankrupt = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_subject_country = {
+				country_event = {
+					id = PR_events.5
+				}
+			}
+		}
+	}
+	
+	option = {
+	}
+}
+
+# Colonial nations receive malus
+country_event = {
+    id = PR_events.5
+    title = "PR_events.5.t"
+    desc = "PR_events.5.d"
+    picture = CIVIL_WAR_eventPicture
+	is_triggered_only = yes
+	
+    trigger = {
+		is_colonial_nation = yes
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				add_devastation = 10
+			}
+		}
+	}
+	
+	option = {
+		name = PR_events.5.a # Only Option
+		add_country_modifier = { name = PR_events.5.a.1 duration = 1825 }
+    }
+}
