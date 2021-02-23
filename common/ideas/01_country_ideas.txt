@@ -21,30 +21,30 @@ BUK_ideas = {
 	}
 	free = yes
 	
-	buk_ = {
+	PR_BUK1_ = {
 		core_creation = -0.25
 	}
-	PR_BUK1 = {
+	PR_BUK2 = {
 		technology_cost = -0.1
 		global_institution_spread = 0.5
 	}
-	PR_BUK2 = {
+	PR_BUK3 = {
 		discipline = 0.05
 	}
-	PR_BUK3 = {
+	PR_BUK4 = {
 		yearly_army_professionalism = 0.002
 		drill_decay_modifier = -0.25
 		drill_gain_modifier = 1
 	}
-	PR_BUK4 = {
+	PR_BUK5 = {
 		global_trade_power = 0.25
 		fort_maintenance_modifier = -0.25	
 	}
-	PR_BUK5 = {
+	PR_BUK6 = {
 		governing_capacity_modifier = 0.25
 		envoy_travel_time = -0.5
 	}
-	PR_BUK6 = {
+	PR_BUK7 = {
 		land_attrition = -0.15
 		movement_speed = 0.10	
 	}
