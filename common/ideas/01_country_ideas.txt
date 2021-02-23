@@ -26,7 +26,6 @@ BUK_ideas = {
 	}
 	PR_BUK2 = {
 		technology_cost = -0.1
-		global_institution_spread = 0.5
 	}
 	PR_BUK3 = {
 		discipline = 0.05
@@ -46,7 +45,6 @@ BUK_ideas = {
 	}
 	PR_BUK7 = {
 		land_attrition = -0.15
-		movement_speed = 0.10	
 	}
 }
 
