@@ -1082,7 +1082,7 @@ cossacks_reform = {
 		governing_capacity = 50
 		max_absolutism = -40
 	}
-	duration = 4
+	duration = 6
 }
 
 #Republican Virtues
