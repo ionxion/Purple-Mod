@@ -1426,11 +1426,11 @@ native_policy_hostile = {
 
 high_harmony = {
 	tolerance_own = 1
+	global_manpower_modifier = 0.15
 }
 
 low_harmony = {
 	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
 	meritocracy = -2
 }
