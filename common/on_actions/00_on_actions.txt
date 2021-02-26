@@ -49,6 +49,77 @@ on_startup = {
 			disaster = french_revolution
 		}
 	}
+
+	#### Dev click counter ###
+	#ARUMBA LINES
+
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_adm_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_adm_clicks
+				value = 0
+			}
+		}
+	}
+	
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_dip_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_dip_clicks
+				value = 0
+			}
+		}
+	}
+	
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_mil_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_mil_clicks
+				value = 0
+			}
+		}
+	}
+	
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_sum_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_sum_clicks
+				value = 0
+			}
+		}
+	}
 }
 
 # country
@@ -1504,14 +1575,53 @@ on_dismantle_revolution = {
 
 # province
 on_adm_development = {
+	#ARUMBA LINES
+    hidden_effect = {
+		owner = {
+			change_variable = {
+				which = dev_adm_clicks
+				value = 1
+			}
+			change_variable = {
+				which = dev_sum_clicks
+				value = 1
+			}
+		}
+	}
 }
 
 # province
 on_dip_development = {
+	#ARUMBA LINES
+	hidden_effect = {
+		owner = {
+			change_variable = {
+				which = dev_dip_clicks
+				value = 1
+			}
+			change_variable = {
+				which = dev_sum_clicks
+				value = 1
+			}
+		}
+	}
 }
 
 # province
 on_mil_development = {
+	#ARUMBA LINES
+    hidden_effect = {
+		owner = {
+			change_variable = {
+				which = dev_mil_clicks
+				value = 1
+			}
+			change_variable = {
+				which = dev_sum_clicks
+				value = 1
+			}
+		}
+	}
 }
 
 on_overextension_pulse = {
@@ -3775,7 +3885,6 @@ on_province_owner_change = {
 		}
 		set_province_flag = PR_new_conquest_fort_delay
 	}
-	
 }
 
 # country
@@ -4009,6 +4118,18 @@ on_create_vassal = {
 		add_government_reform = papacy_reform
 		adopt_reform_progress = FROM
 	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
+	}
 }
 
 # ROOT = Country establishing it
@@ -4088,6 +4209,18 @@ on_country_released = {
 		}
 		capital_scope = {
 			change_religion = FROM
+		}
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
 		}
 	}
 }
@@ -4209,6 +4342,18 @@ on_create_client_state = {
 		}
 		add_government_reform = junior_revolutionary_republic_reform
 		set_country_flag = had_revolution
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
 	}
 }
 
@@ -4431,5 +4576,18 @@ on_country_creation = {
 		change_religion = catholic
 		change_government = theocracy
 		add_government_reform = papacy_reform
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
+
 	}
 }
