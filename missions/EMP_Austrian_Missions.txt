@@ -1076,7 +1076,7 @@ emp_hab_german_expansion_branch = {
 		icon = control_swabia
 		position = 10
 		
-		required_missions = { emp_hab_union_bayern emp_hab_connect_further_austria }
+		required_missions = { emp_hab_union_bayern }
 		provinces_to_highlight = {
 			OR = {
 				area = upper_swabia_area
@@ -1372,79 +1372,9 @@ emp_hab_western_expansion_branch = {
 	
 	has_country_shield = yes
 	
-	emp_hab_connect_further_austria = {
-		icon = connect_further_austria
-		
-		ai_weight = {
-			factor = 3
-			modifier = {
-				factor = 0.33
-				NOT = { owns = 1880 }
-			}
-		}
-		ai_priority = {
-			factor = 5
-		}
-
-		position = 9
-		
-		required_missions = {  }
-		provinces_to_highlight = {
-			province_id = 1880
-			OR = {
-				NOT = { owned_by = root }
-				is_in_capital_area = no
-			}
-		}
-		trigger = {
-			1880 = {
-				owned_by = root
-				is_in_capital_area = yes
-			}
-		}
-		effect = {
-			switzerland_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			romandie_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			upper_swabia_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			lower_swabia_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			upper_rhineland_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-		}
-	}
-	
 	emp_hab_conquer_switzerland = {
 		icon = reorganize_the_confederacy
 		
-		required_missions = { emp_hab_connect_further_austria }
 		provinces_to_highlight = {
 			OR = {
 				AND = {
