@@ -19,7 +19,9 @@ PR_LIT_mission = {
 }
 
 PR_muslim_school_cooldown = {
-	picture = "icon_envoy_missionary"
+	tooltip = {
+		missionaries = 0.1
+	}
 }
 
 PR_events.5.a.1 = {
@@ -33,4 +35,5 @@ PR_manpower_edict_province = {
 }
 
 PR_manpower_edict_cooldown = {
+	global_manpower = 0.001
 }
