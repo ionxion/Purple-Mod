@@ -15,3 +15,11 @@ vassal = {
 	start_date = 1444.1.1
 	end_date = 1477.1.5
 }
+
+# Switzerland Vassal Three Leagues
+vassal = {
+	first = SWI
+	second = TTL
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}
