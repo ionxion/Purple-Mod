@@ -1,7 +1,8 @@
 #76 - Salzburg
 
-owner = SLZ
-controller = SLZ 
+owner = HAB
+controller = HAB 
+add_core = HAB 
 culture = bavarian
 religion = catholic
 capital = "Salzburg"

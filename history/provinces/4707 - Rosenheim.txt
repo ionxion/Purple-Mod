@@ -1,5 +1,6 @@
-owner = ING
-controller = ING
+owner = HAB
+controller = HAB
+add_core = HAB
 capital = "Wasserburg"
 is_city = yes
 culture = bavarian
