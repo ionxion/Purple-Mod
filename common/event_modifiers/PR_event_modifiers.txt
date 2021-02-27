@@ -19,9 +19,18 @@ PR_LIT_mission = {
 }
 
 PR_muslim_school_cooldown = {
+	picture = "icon_envoy_missionary"
 }
 
 PR_events.5.a.1 = {
 	land_morale = -0.5
 	naval_morale = -0.5
+}
+
+PR_manpower_edict_province = {
+	local_manpower_modifier = 0.25
+	local_state_maintenance_modifier = 2.0
+}
+
+PR_manpower_edict_cooldown = {
 }
