@@ -5,6 +5,11 @@ religion = sunni
 technology_group = indian
 capital = 2054	# Ahmadabad
 religious_school = shafii_school
+historical_rival = MER
+historical_rival = JNP
+historical_rival = BNG
+historical_rival = BAH
+historical_rival = VIJ
 
 change_jains_or_burghers_land_share_effect = {
 	share = 20

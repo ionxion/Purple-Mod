@@ -4,6 +4,11 @@ primary_culture = oriya
 religion = hinduism
 technology_group = indian
 capital = 552	# Cuttack
+historical_rival = MER
+historical_rival = JNP
+historical_rival = BNG
+historical_rival = BAH
+historical_rival = VIJ
 
 #Rajas of Orissa
 
