@@ -7205,7 +7205,7 @@ estate_vaisyas_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    ttask_requirements = {
+    task_requirements = {
 		event_target:agenda_province = {
 			custom_trigger_tooltip = {
 				tooltip = has_manufactory_trigger_tooltip
