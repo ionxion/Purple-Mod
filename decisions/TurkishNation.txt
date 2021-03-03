@@ -83,7 +83,10 @@ country_decisions = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
-					tag = MAM
+					OR = {
+						was_tag = MAM
+						tag = MAM
+					}
 				}
 				change_technology_group = ottoman
 				change_unit_type = ottoman
