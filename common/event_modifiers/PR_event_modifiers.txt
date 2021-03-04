@@ -37,3 +37,11 @@ PR_manpower_edict_province = {
 PR_manpower_edict_cooldown = {
 	global_manpower = 0.001
 }
+
+PR_commandant_cooldown = {
+	discipline = 0.001
+}
+
+PR_grand_captain_cooldown = {
+	land_morale = 0.001
+}

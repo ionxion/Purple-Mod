@@ -17,3 +17,7 @@
  PR_events.5.d:0 "Whether it be by long drawn out wars or negligent spending of the treasury, our colonial overlord has had no choice but to declare economic bankruptcy. As an extension of their rule, these consequences will be felt amongst all their colonial subjects."
  PR_events.5.a:0 "Those fools!"
  PR_events.5.a.1:0 "Colonial Overlord Bankrupts"
+ PR_commandant_cooldown:0 "Inspirational Leader Cooldown"
+ PR_commandant_cooldown_tooltip:0 "Perhaps another time..."
+ PR_grand_captain_cooldown:0 "Grand Captain Cooldown"
+ PR_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
