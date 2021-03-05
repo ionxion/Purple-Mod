@@ -3813,7 +3813,6 @@ on_convert_by_trade_policy = {
 # FROM = old owner
 on_province_owner_change = {
 	events = {
-		japan.1
 	}
 	
 	if = {

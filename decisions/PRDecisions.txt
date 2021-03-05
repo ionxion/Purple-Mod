@@ -86,8 +86,12 @@ country_decisions = {
 			}
 		}
 		allow = {
-			custom_tooltip = PR_manpower_edict_removal_tooltip
-			NOT = { has_country_modifier = PR_manpower_edict_cooldown }
+			custom_trigger_tooltip = {
+				tooltip = PR_manpower_edict_removal_tooltip
+				NOT = { 
+					has_country_modifier = PR_manpower_edict_cooldown 
+				}
+			}
 		}
 		effect = {
 			hidden_effect = {

@@ -542,23 +542,23 @@ trade_company_sevilla = {
 	}
 }
 
-#trade_company_safi = { PR merged with Tunis
-	color = { 191 110 62 }
-	
-	provinces = {
-		344 345 346 347 348 1110 2460 2464 2466 2467 2468 2469 2470 342 343 349 2459 2462 2463 336 337 338 2461 2465
-		4564 4562 4568
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_SAFI_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_SAFI_African_Trade_Company"
-	}
-}
+#trade_company_safi = { # PR merged with Tunis
+#	color = { 191 110 62 }
+#	
+#	provinces = {
+#		344 345 346 347 348 1110 2460 2464 2466 2467 2468 2469 2470 342 343 349 2459 2462 2463 336 337 338 2461 2465
+#		4564 4562 4568
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_SAFI_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_SAFI_African_Trade_Company"
+#	}
+#}
 
 trade_company_timbuktu = {
 	color = { 108 152 84 }
