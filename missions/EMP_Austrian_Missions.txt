@@ -1375,6 +1375,8 @@ emp_hab_western_expansion_branch = {
 	emp_hab_conquer_switzerland = {
 		icon = reorganize_the_confederacy
 		
+		position = 9
+		
 		provinces_to_highlight = {
 			OR = {
 				AND = {
