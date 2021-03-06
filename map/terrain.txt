@@ -290,7 +290,7 @@ categories =  {
 			128 1769 4751 #Austria
 			4766 4767 4768 4770 4786
 			
-			278 1941 4545 #PR Changes
+			4545 #PR Changes
 		}
 	}
 	
@@ -435,6 +435,7 @@ categories =  {
 			1858 4760 #Germany
 			#foffychina
 			5590 5533 5615 5609 5630 5614
+			278 1941 #PR change
 		}
 	}
 
