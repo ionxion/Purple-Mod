@@ -367,12 +367,21 @@ country_decisions = {
 								tag = WUU
 								tag = CXI
 								tag = CYI
+								is_colonial_nation = yes
 							}
 						}
 					}
 				}
 				country_event = {
 					id = PR_events.30
+				}
+			}
+			if = {
+				limit = {
+					is_colonial_nation = yes
+				}
+				country_event = {
+					id = PR_events.31
 				}
 			}
 		}

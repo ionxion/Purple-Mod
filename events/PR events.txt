@@ -802,9 +802,30 @@ country_event = {
 					tag = WUU
 					tag = CXI
 					tag = CYI
+					is_colonial_nation = yes
 				}
 			}
 		}
+    }
+		
+	option = {
+        name = "PR_events.patch"
+		clr_country_flag = PR_patch_notes_flag
+		ai_chance = {
+		}
+    }
+}
+
+# Country receives patch notes Colonial Nation
+country_event = {
+    id = PR_events.31
+    title = "PR_events.col.t"
+    desc = "PR_events.col.d"
+    picture = COURT_eventPicture
+	is_triggered_only = yes
+
+    trigger = {
+       is_colonial_nation = yes
     }
 		
 	option = {
