@@ -46,6 +46,7 @@ on_startup = {
 		PR_events.28 # Uesugi
 		PR_events.29 # Indians
 		PR_events.30 # Everyone else
+		PR_events.31 # Colonial Nations
 	}
 	if = {
 		limit = {

@@ -115,19 +115,162 @@ can_move_capital = {
 			always = no
 		}
 	}
+	
+	#PR Colonial Nation move capital in own region	
 	condition = {
 		tooltip = "PR_tooltip_move_capital"
 		potential = {
-		}
-		allow = {
-			NOT = {
-				OR = {
-					continent = south_america
-					continent = north_america
-					region = australia_region
-					region = oceanea_region
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_alaska
 				}
 			}
+		}
+		allow = {
+			colonial_region = colonial_alaska
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_canada
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_canada
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_eastern_america
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_eastern_america
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_louisiana
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_louisiana
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_california
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_california
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_mexico
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_mexico
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_the_carribean
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_the_carribean
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_colombia
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_colombia
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_peru
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_peru
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_la_plata
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_la_plata
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_brazil
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_brazil
+		}
+	}
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+			FROM = {
+				capital_scope = {
+					colonial_region = colonial_australia
+				}
+			}
+		}
+		allow = {
+			colonial_region = colonial_australia
 		}
 	}
 }
