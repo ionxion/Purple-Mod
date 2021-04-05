@@ -15109,7 +15109,7 @@ MSA_ideas = {
         global_colonial_growth = 20
     }
     msa_advanced_galley_warfare = {
-        galley_power = 0.25
+        galley_power = 0.15
     }
     msa_expert_haggling = {
         trade_efficiency = 0.15
