@@ -41,12 +41,12 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
+		development_cost = -0.05
 		no_religion_penalty = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		land_morale = 0.05
 	}
 	
 	trigger = {
