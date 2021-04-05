@@ -879,6 +879,9 @@ gulf_of_siam={
 }
 malacca={
 	location=1361
+	color={
+		175 78 216
+	}
 	outgoing={
 		name="ganges_delta"
 		path={
