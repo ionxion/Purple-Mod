@@ -2481,8 +2481,7 @@ kor_conquest_manchuria = {
 
 kor_emperor_of_china = {
 	prestige = 1
-	development_cost = -0.15
-	imperial_mandate = 0.03
+	land_morale = 0.10
 }
 
 kor_chinese_patronage = {
@@ -2503,7 +2502,6 @@ kor_mission_traders = {
 }
 
 kor_japanese_loot = {
-	development_cost = -0.05
 	local_development_cost = -0.05
 	prestige = 0.5
 }
@@ -2519,7 +2517,7 @@ kor_turtle_fleets = {
 
 kor_growing_economy = {
 	build_cost = -0.10
-	development_cost = -0.10
+	development_cost = -0.05
 }
 
 kor_prosperous_korea = {
