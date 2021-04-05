@@ -25,7 +25,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 97;100;sea;1269;2890;1581;2886;1576;Holland-Friesland
 96;1865;sea;1269;-1;-1;-1;-1;Zeeland-Gent
 1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
-1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
+1818;4186;sea;1390;4860;1202;4872;1202;Chikuzen-Iyo #PR/MJL Change
 4186;1825;sea;1390;4881;1219;4880;1214;Aki-Iyo
 36;35;sea;1926;3171;1709;3165;1709;Estland-Ösel
 35;39;sea;1256;3157;1684;3158;1694;Ösel-Kurland
