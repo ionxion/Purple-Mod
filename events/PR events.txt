@@ -527,7 +527,7 @@ country_event = {
 country_event = {
     id = PR_events.19
     title = "PR_events.mam.t"
-    desc = "PR_events.ma.d"
+    desc = "PR_events.mam.d"
     picture = COURT_eventPicture
 	is_triggered_only = yes
 
@@ -552,7 +552,7 @@ country_event = {
 	is_triggered_only = yes
 
     trigger = {
-       tag = MAM
+       tag = QAR
     }
 		
 	option = {
