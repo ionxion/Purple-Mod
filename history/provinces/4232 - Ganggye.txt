@@ -1,7 +1,7 @@
 #4232 - Ganggye
 
-owner = KOR
-controller = KOR
+owner = FO1
+controller = FO1
 culture = korean
 religion = confucianism
 capital = "Ganggye"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KOR
+add_core = FO1
 add_local_autonomy = 35
 fort_15th = yes
 discovered_by = chinese
