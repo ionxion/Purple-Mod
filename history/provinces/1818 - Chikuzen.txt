@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = OUC
-controller = OUC
+owner = SMZ
+controller = SMZ
 culture = kyushuan
 religion = shinto
 capital = "Hakata"
@@ -16,6 +16,7 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 fort_15th = yes #Tachibanayama Castle
+add_core = SMZ
 add_core = OUC
 discovered_by = chinese
 discovered_by = MCH
