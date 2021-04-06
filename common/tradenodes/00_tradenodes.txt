@@ -431,6 +431,51 @@ lhasa={
 		4514 4515 4516 4517 4518 4519 4520 #new tibetan provinces
 	}
 }
+burma={
+	location=584
+	color={
+		35 229 76
+	}
+	inland=yes
+	outgoing={
+		name="ganges_delta"
+		path={
+			4396 1815 
+		}
+		control={
+			4297.000000 951.000000 4306.000000 891.000000 4277.000000 895.000000 4254.000000 947.000000 
+		}
+	}
+	outgoing={
+		name="gulf_of_siam"
+		path={
+			4398 602 
+		}
+		control={
+			4376.000000 917.000000
+		}
+	}
+	outgoing={
+		name="chengdu"
+		path={
+			675 2167 2166 583 2400 
+		}
+		control={
+			4303.000000 1027.000000 4374.000000 1058.000000 4416.000000 1100.000000
+		}
+	}
+	members={
+		570 573 2041 #naga_hills_area
+		584 2399 581 #upper_burma_area
+		2398 580 4393 2397 #chindwin_area
+		566 571 2040 2042 4440 #assam_area
+		4394 4396 585 4395 #central_burma_area
+		583 588 2400 4397 4406 #shan_hill_area
+		587 2401 4398 #karenni_area 
+		582 2395 2396 4404 4405 #kachin_area
+		567 2091 4473 #tripura_area
+	}
+}
 chengdu={
 	location=5504
 	color={
@@ -452,16 +497,7 @@ chengdu={
 			2169 689 700 
 		}
 		control={
-			4474.000000 1173.000000 4519.000000 1194.000000 
-		}
-	}
-	outgoing={
-		name="burma"
-		path={
-			675 2167 2166 583 2400 
-		}
-		control={
-			4416.000000 1100.000000 4374.000000 1058.000000 4303.000000 1027.000000 
+			4457.000 1220.000 4495.500 1223.500
 		}
 	}
 	outgoing={
@@ -471,6 +507,15 @@ chengdu={
 		}
 		control={
 			4492.000 1152.000
+		}
+	}
+	outgoing={
+		name="gulf_of_siam"
+		path={
+			2169 689 700 
+		}
+		control={
+			4438.000 1066.000 4399.000 994.000 4391.500 947.000
 		}
 	}
 	members={
@@ -855,42 +900,6 @@ the_moluccas={
 	}
 	
 	ai_will_propagate_through_trade = yes
-}
-burma={
-	location=584
-	color={
-		35 229 76
-	}
-	inland=yes
-	outgoing={
-		name="ganges_delta"
-		path={
-			4396 1815 
-		}
-		control={
-			4297.000000 951.000000 4306.000000 891.000000 4277.000000 895.000000 4254.000000 947.000000 
-		}
-	}
-	outgoing={
-		name="gulf_of_siam"
-		path={
-			4398 602 
-		}
-		control={
-			4376.000000 917.000000
-		}
-	}
-	members={
-		570 573 2041 #naga_hills_area
-		584 2399 581 #upper_burma_area
-		2398 580 4393 2397 #chindwin_area
-		566 571 2040 2042 4440 #assam_area
-		4394 4396 585 4395 #central_burma_area
-		583 588 2400 4397 4406 #shan_hill_area
-		587 2401 4398 #karenni_area 
-		582 2395 2396 4404 4405 #kachin_area
-		567 2091 4473 #tripura_area
-	}
 }
 gulf_of_siam={
 	location=1365
