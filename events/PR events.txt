@@ -756,7 +756,7 @@ country_event = {
     }
 }
 
-# Country receives patch notes Everyone else
+# Country receives generic patch notes Everyone else
 country_event = {
     id = PR_events.30
     title = "PR_events.all.t"
@@ -782,7 +782,7 @@ country_event = {
 					tag = VEN
 					tag = LIT
 					tag = SHY
-					tag = MAM
+					tag = QAR
 					tag = MAM
 					tag = MOR
 					tag = MAL
