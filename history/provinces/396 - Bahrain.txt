@@ -1,7 +1,7 @@
 #396 - Bahrain
 
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = gulf_arabic
 religion = shiite
 capital = "Manama"
