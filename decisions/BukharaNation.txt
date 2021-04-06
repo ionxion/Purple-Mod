@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			tag = SHY
+			primary_culture = uzbehk
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
 			OR = {
