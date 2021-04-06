@@ -6,7 +6,7 @@
 
 ### Nation specific idea groups
 
-BUK_ideas = {
+PR1_ideas = {
 	start = {
 		global_trade_goods_size_modifier = 0.15
 		reinforce_speed = 0.2
