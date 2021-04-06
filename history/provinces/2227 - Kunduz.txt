@@ -1,7 +1,7 @@
 #2227 - Kunduz
 
-owner = TIM
-controller = TIM
+owner = AFG
+controller = AFG
 culture = afghani
 religion = sunni
 capital = "Kunduz"
