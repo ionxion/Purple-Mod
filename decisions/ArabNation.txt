@@ -27,10 +27,10 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 358			#Alexandria
-				province_id = 361			#Cairo
-				province_id = 377			#Aleppo
-				province_id = 379			#Jerusalem
+				#province_id = 358			#Alexandria PR Change
+				#province_id = 361			#Cairo PR Change
+				#province_id = 377			#Aleppo PR Change
+				#province_id = 379			#Jerusalem PR Change
 				province_id = 382			#Damascus
 				province_id = 384			#Medina
 				province_id = 385			#Mecca
@@ -40,7 +40,7 @@ country_decisions = {
 				province_id = 394			#Qatif
 				province_id = 400			#Muscat
 				province_id = 403			#Nizwa
-				province_id = 410			#Baghdad
+				#province_id = 410			#Baghdad PR Change
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
