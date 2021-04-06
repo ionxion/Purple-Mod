@@ -409,4 +409,15 @@ spriteTypes = {
 		name = "GFX_trade_icon"
 		texturefile = "gfx//interface//text_icon_trade.dds"
 	}
+	
+	
+	#PR Changes
+	spriteType = {
+		name = "GFX_text_discipline"
+		texturefile = "gfx/interface/discipline.dds"
+	}
+	spriteType = {
+		name = "GFX_text_morale"
+		texturefile = "gfx/interface/land_morale.dds"
+	}
 }
