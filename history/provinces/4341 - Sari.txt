@@ -1,7 +1,7 @@
 #4341 - Sari
 
-owner = TAB
-controller = TAB
+owner = KHO
+controller = KHO
 culture = mazandarani
 religion = shiite
 capital = "Sari"
@@ -12,6 +12,7 @@ base_production = 5
 base_manpower = 3
 is_city = yes
 add_local_autonomy = 10
+add_core = KHO
 add_core = TAB
 discovered_by = eastern
 discovered_by = muslim

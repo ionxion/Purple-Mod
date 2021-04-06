@@ -1,7 +1,7 @@
 #426 - Amol
 
-owner = TAB
-controller = TAB
+owner = KHO
+controller = KHO
 culture = mazandarani
 religion = shiite
 capital = "Amol"
@@ -12,6 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 fort_15th = yes
+add_core = KHO
 add_core = TAB
 discovered_by = eastern
 discovered_by = muslim
