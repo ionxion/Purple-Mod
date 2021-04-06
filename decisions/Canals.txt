@@ -176,6 +176,7 @@ country_decisions = {
 			4316 = {
 				has_construction = canal
 			}
+			always = no #PR Change
 		}
 		allow = {
 			4316 = {
