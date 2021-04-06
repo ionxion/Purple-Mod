@@ -83,18 +83,8 @@ PR_qar_missions = {
 			}
 		}
 		effect = {
-			add_prestige = 10
-			every_subject_country = {
-				limit = {
-					OR = {
-						tag = AKK
-						tag = MSY
-					}
-				}
-				every_owned_province = {
-					add_core = QAR
-				}
-			}
+			add_prestige = 20
+			add_treasury = 500
 		}
 	}
 	PR_qar_missions3_desc = {
