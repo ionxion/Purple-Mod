@@ -126,7 +126,7 @@ ENG_ideas = {
 GBR_ideas = {
 	start = {
 		naval_morale = 0.10
-		fire_damage = 0.15
+		artillery_power = 0.15
 	}
 
 	bonus = {
@@ -158,7 +158,7 @@ GBR_ideas = {
 		global_trade_goods_size_modifier = 0.2
 	}
 	britanna_rules_the_waves = {
-		leader_naval_manuever = 1
+		manpower_recovery_speed = 0.10
 		blockade_efficiency = 0.33
 		allowed_marine_fraction = 0.10
 	}
