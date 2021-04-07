@@ -679,6 +679,7 @@ country_event = {
 			tag = CYI
 			tag = CXI
 			tag = CSH
+			tag = FO2
 		}
     }
 		
@@ -710,7 +711,7 @@ country_event = {
     }
 }
 
-# Country receives patch notes Uesugi
+# Country receives patch notes Shimazu
 country_event = {
     id = PR_events.28
     title = "PR_events.ues.t"
@@ -719,7 +720,7 @@ country_event = {
 	is_triggered_only = yes
 
     trigger = {
-       tag = UES
+       tag = SMZ
     }
 		
 	option = {
@@ -790,7 +791,7 @@ country_event = {
 					tag = ZAN
 					tag = SON
 					tag = MJZ
-					tag = UES
+					tag = SMZ
 					tag = JNP
 					tag = MER
 					tag = BAH
@@ -802,6 +803,7 @@ country_event = {
 					tag = WUU
 					tag = CXI
 					tag = CYI
+					tag = FO2
 					is_colonial_nation = yes
 				}
 			}
