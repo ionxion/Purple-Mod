@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = kyushuan
 religion = shinto
 technology_group = chinese
-capital = 1012	# Satsuma
+capital = 1818	# PR Change
 
 1325.11.12 = { 
 	monarch = {
