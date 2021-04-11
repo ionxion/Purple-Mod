@@ -7895,6 +7895,9 @@ ORM_ideas = {
 	}
 	free = yes
 	
+	orm_develop_qeshm_and_ormuz = {
+		development_cost = -0.1
+	}
 	orm_a_vast_emporium = {
 		trade_efficiency = 0.1
 	}
@@ -7910,9 +7913,6 @@ ORM_ideas = {
 	}
 	orm_secure_trading_monopoly = {
 		global_trade_power = 0.1
-	}
-	orm_develop_qeshm_and_ormuz = {
-		development_cost = -0.1
 	}
 	orm_ormuzi_navy = {
 		naval_forcelimit_modifier = 0.25
