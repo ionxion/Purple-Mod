@@ -164,7 +164,7 @@ technology = { #Metallurgy
 	year = 1609
 	
 	
-	administrative_efficiency = 0.15 #PR Change
+	administrative_efficiency = 0.1 #PR Change
 	mills = yes
 	production_efficiency 	=	0.02
 
@@ -210,7 +210,7 @@ technology = { #Land Clearance
 	year = 1674
 	
 	#Land Clearance
-	administrative_efficiency = 0.15 #PR Change
+	administrative_efficiency = 0.1 #PR Change
 	production_efficiency 	=	0.02
 	furnace = yes
 }
@@ -247,7 +247,7 @@ technology = { #Improved Production
 	year = 1730
 	
 	#Improved Farm Animals
-	administrative_efficiency = 0.15 #PR Change
+	administrative_efficiency = 0.1 #PR Change
 	production_efficiency 	=	0.02
 }
 
