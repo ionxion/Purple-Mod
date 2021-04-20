@@ -296,20 +296,6 @@ swiss_missions_3 = {
 				PAP = {
 					has_opinion = { who = ROOT value = 100 }
 				}
-				OR = {
-					is_in_war = {
-						defenders = PAP
-						defenders = ROOT
-					}
-					is_in_war = {
-						attackers = PAP
-						attackers = ROOT
-					}
-					custom_trigger_tooltip = { # see on_war_won on_action
-						tooltip = hirde_to_pope_tt
-						has_country_flag = hired_to_pope
-					}
-				}
 			}
 			else = {
 				army_size_percentage = 1
