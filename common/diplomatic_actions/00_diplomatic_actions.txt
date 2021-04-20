@@ -572,6 +572,37 @@ allianceaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = PR_tooltip_horde
+		potential = {
+		}
+		allow = {
+			FROM = {
+				AND = {
+					NOT = { 
+						has_reform = steppe_horde
+					}
+					NOT = {
+						tag = SHY
+					}
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = PR_tooltip_horde
+		potential = {
+			AND = {
+				ROOT = { has_reform = steppe_horde }
+				NOT = {
+					tag = SHY
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 enforce_peace = {
