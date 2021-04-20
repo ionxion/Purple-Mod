@@ -7883,7 +7883,7 @@ ORL_ideas = {
 ORM_ideas = {
 	start = {
 		merchants = 1
-		global_foreign_trade_power = 0.1
+		discipline = 0.05
 	}
 
 	bonus = {
@@ -7907,12 +7907,12 @@ ORM_ideas = {
 	orm_moqarrariya = {
 		stability_cost_modifier = -0.1
 	}
+	orm_secure_trading_monopoly = {
+		global_trade_power = 0.1
+	}
 	orm_far_reaching_diplomacy = {
 		diplomatic_upkeep = 1
 		diplomatic_reputation = 1
-	}
-	orm_secure_trading_monopoly = {
-		global_trade_power = 0.1
 	}
 	orm_ormuzi_navy = {
 		naval_forcelimit_modifier = 0.25
