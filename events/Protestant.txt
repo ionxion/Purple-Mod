@@ -102,17 +102,17 @@ country_event = {
 			factor = 2.0
 			government = theocracy
 		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				NOT = { exists = PAP }
-				PAP = { is_part_of_hre = no }
-			}
-			OR = {
-				culture_group = latin
-				culture_group = iberian
-			}
-		}
+		#modifier = {	#PR Change
+		#	factor = 8.0
+		#	OR = {
+		#		NOT = { exists = PAP }
+		#		PAP = { is_part_of_hre = no }
+		#	}
+		#	OR = {
+		#		culture_group = latin
+		#		culture_group = iberian
+		#	}
+		#}
 		modifier = {
 			factor = 0.75
 			PAP = { is_part_of_hre = yes }
