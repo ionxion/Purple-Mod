@@ -7,7 +7,7 @@ primary_culture = korean
 capital = 737
 fixed_capital = 737
 
-1418.1.1 = {
+1428.1.1 = {
 	monarch = {
 		name = "Sejong Do" #Sejong Daewang
 		dynasty = "Yi"
@@ -30,20 +30,6 @@ fixed_capital = 737
 		adm = 4
 		dip = 3
 		mil = 3
-	}
-}
-
-1418.1.1 = {
-	heir = {
-		name = "Hyang"
-		monarch_name = "Hyang"
-		dynasty = "Yi"
-		birth_date = 1414.11.15
-		death_date = 1452.6.1
-		claim = 95
-		adm = 2
-		dip = 1
-		mil = 1
 	}
 }
 
