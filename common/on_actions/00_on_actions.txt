@@ -11,42 +11,10 @@ on_startup = {
 		}
 		save_global_event_target_as = EmperorOfChina
 	}
-	if = {
-		limit = {
-			ai = no
-		}
-		set_country_flag = PR_patch_notes_flag
-	}
 	events = {
 		muslim_school_events.20 #Pick School
 		foffychina.31
 #		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-		PR_events.6 # PR patch note event - england
-		PR_events.7 #  France
-		PR_events.8 #  Burgundy
-		PR_events.9 #  Castile
-		PR_events.10 # Portugal
-		PR_events.11 # Austria
-		PR_events.12 # Denmark
-		PR_events.13 # Naples
-		PR_events.14 # Milan
-		PR_events.15 # Brandenburg
-		PR_events.16 # Venice
-		PR_events.17 # Lithuania
-		PR_events.18 # Uzbek
-		PR_events.19 # Mamluks
-		PR_events.20 # Qara Qoyunlu
-		PR_events.21 # Morocco
-		PR_events.22 # Mali
-		PR_events.23 # Kongo
-		PR_events.24 # Kilwa
-		PR_events.25 # Songhai
-		PR_events.26 # China
-		PR_events.27 # Jianzhou
-		PR_events.28 # Uesugi
-		PR_events.29 # Indians
-		PR_events.30 # Everyone else
-		PR_events.31 # Colonial Nations
 	}
 	if = {
 		limit = {
