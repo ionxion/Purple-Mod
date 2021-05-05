@@ -1917,6 +1917,7 @@ PR_estate_clergy_exploration_expedition = {
 		OR = {
 			tag = QAR
 			has_country_flag = PR_qar_missions4_desc_completed
+			tag = ARB
 		}
 	}
 	
@@ -1927,13 +1928,21 @@ PR_estate_clergy_exploration_expedition = {
 			value = 4
 			}
 		}
-		has_country_flag = PR_qar_missions4_desc_completed
+		OR = {
+			has_country_flag = PR_qar_missions4_desc_completed
+			tag = ARB
+		}
 	}
 	on_granted = {
 		custom_tooltip = PR_estate_clergy_exploration_expedition_effect_tooltip
 		hidden_effect = {
 			every_owned_province = {
-				limit = { has_terrain = desert }
+				limit = { 
+					OR = {
+						has_terrain = desert
+						has_terrain = coastal_desert
+					}
+				}
 				add_province_modifier = {
 					name = PR_estate_clergy_exploration_expedition_mod
 					duration = -1
