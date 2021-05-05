@@ -626,6 +626,21 @@ on_province_owner_change_estate_privileges_effect = {
 		}
 	}
 	if = {
+		limit = { has_terrain = coastal_desert }
+		if = {
+			limit = {
+				owner = {
+					has_estate_privilege = PR_estate_clergy_exploration_expedition
+				}
+				NOT = { has_province_modifier = PR_estate_clergy_exploration_expedition_mod }
+			}
+			add_province_modifier = {
+				name = PR_estate_clergy_exploration_expedition_mod
+				duration = -1
+			}
+		}
+	}
+	if = {
 		limit = {
 			owner = {
 				has_estate_privilege = estate_dhimmi_lighter_dhimmi_taxes
