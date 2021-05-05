@@ -46,35 +46,35 @@ tatar_missions_1 = {
 				}
 				horde_unity = 90
 			}
-			else_if = {
-				limit = {
-					government = monarchy
-				}
-				legitimacy = 90
-			}
-			else_if = {
-				limit = {
-					has_dlc = "Common Sense"
-					government = theocracy
-				}
-				devotion = 90
-			}
-			else_if = {
-				limit = {
-					NOT = { has_dlc = "Common Sense" }
-					government = theocracy
-				}
-				prestige = 40
-			}
-			else_if = {
-				limit = {
-					government = republic
-				}
-				republican_tradition = 90
-			}
-			else= {
-				legitimacy = 90
-			}
+			#else_if = {	#PR Change
+			#	limit = {
+			#		government = monarchy
+			#	}
+			#	legitimacy = 90
+			#}
+			#else_if = {	#PR Change
+			#	limit = {
+			#		has_dlc = "Common Sense"
+			#		government = theocracy
+			#	}
+			#	devotion = 90
+			#}
+			#else_if = {	#PR Change
+			#	limit = {
+			#		NOT = { has_dlc = "Common Sense" }
+			#		government = theocracy
+			#	}
+			#	prestige = 40
+			#}
+			#else_if = {	#PR Change
+			#	limit = {
+			#		government = republic
+			#	}
+			#	republican_tradition = 90
+			#}
+			#else= {	#PR Change
+			#	legitimacy = 90
+			#}
 			num_of_cities = 25
 			owns_core_province = 303
 			owns_core_province = 466
