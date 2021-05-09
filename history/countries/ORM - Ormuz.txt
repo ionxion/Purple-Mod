@@ -14,7 +14,7 @@ religious_school = maliki_school
 		dynasty = "Turani"
 		dip = 4
 		mil = 2
-		adm = 2
+		adm = 5
 	}
 	add_piety = 0.1
 }
