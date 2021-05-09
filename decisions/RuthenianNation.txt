@@ -75,7 +75,6 @@ country_decisions = {
 				AND = {
 					owns_core_province = 280		#Kiev -center				
 					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
-					legitimacy = 100
 				}
 			}
 		}
