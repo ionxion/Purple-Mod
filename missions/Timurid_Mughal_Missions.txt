@@ -284,7 +284,7 @@ tim_reconquest_khorasan = {
 		
 		trigger = {
 			army_size_percentage = 1
-			manpower_percentage = 0.6
+			#manpower_percentage = 0.6	#PR Change
 			num_of_generals = 1
 		}
 		
