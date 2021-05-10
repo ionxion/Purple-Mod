@@ -13,7 +13,12 @@ PR_smz_missions = {
 		position = 6
 		required_missions = {  }
 		trigger = {
-			war_with = ASK
+			AND = {
+				war_with = ASK
+				NOT = {
+					defensive_war_with = ASK
+				}
+			}
 		}
 		effect = {
 			add_stability = 3
