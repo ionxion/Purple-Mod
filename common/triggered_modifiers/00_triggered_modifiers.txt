@@ -895,3 +895,29 @@ PR_player_cn_navy = {
 	local_ship_repair = -0.5
 	heavy_ship_cost = 0.2
 }
+
+
+######################################
+# PR MP Overflow - code from distinct
+######################################
+
+
+PR_MP_overflow = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		manpower_percentage = 3.00
+	}
+	manpower_recovery_speed = -1
+}
+
+PR_MP_overflow2 = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		manpower_percentage = 2.00
+	}
+	yearly_army_professionalism = -0.05
+}
