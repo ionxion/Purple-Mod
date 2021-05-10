@@ -107,7 +107,7 @@ country_decisions = {
 					is_revolutionary = no
 				}
 				add_government_reform = indian_sultanate_reform
-				add_government_reform = mughal_government
+				#add_government_reform = mughal_government	#PR Change
 			}
 			if = {
 				limit = {
