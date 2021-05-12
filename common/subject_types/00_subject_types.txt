@@ -298,11 +298,11 @@ daimyo_vassal = {
 	enforce_culture = no
 	seize_territory = no
 	#(enable)
-	force_seppuku = yes
-	contribute_to_capital = yes
-	force_isolation = yes
-	return_land = yes
-	conscript_general = yes
+	force_seppuku = no	#PR Change
+	contribute_to_capital = no	#PR Change
+	force_isolation = no	#PR Change
+	return_land = no	#PR Change
+	conscript_general = no	#PR Change
 	#(special)
 	sword_hunt = yes
 	sankin_kotai = yes
