@@ -1082,10 +1082,14 @@ kor_turtle_ships_tree = {
 		required_missions = { kor_japanese_piracy }
 
 		trigger = {
-			has_global_modifier_value = {
-				which = ship_durability
-				value = 0.15
-			}
+			OR = {	#PR Change
+				num_of_heavy_ship = 10	#PR Change
+				num_of_galley = 25	#PR Change
+			}	#PR Change
+			#has_global_modifier_value = {	#PR Change
+			#	which = ship_durability	#PR Change
+			#	value = 0.15	#PR Change
+			#}	#PR Change
 		}
 		effect = {
 			add_country_modifier = {
