@@ -153,7 +153,8 @@ age_of_discovery = {
 
 		ab_cavalry_armies = {
 			modifier = {
-				cav_to_inf_ratio = 0.2
+				cavalry_cost = -0.10	#PR Change
+				#cav_to_inf_ratio = 0.2	#PR Change
 			}
 			ai_will_do = {
 				factor = 10
