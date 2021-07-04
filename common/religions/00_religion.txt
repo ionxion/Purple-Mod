@@ -1123,7 +1123,7 @@ muslim = {
 		color = { 0 153 0 }
 		icon = 5
 		country = {
-			cav_to_inf_ratio = 0.10
+			diplomatic_upkeep = 1
 			heir_chance = 1.0
 		}
 		country_as_secondary = {
