@@ -526,7 +526,8 @@ age_of_absolutism = {
 
 		ab_rival_change = {
 			modifier = {
-				rival_change_cost = -0.5
+				power_projection_from_insults = 0.5	#PR Change
+				#rival_change_cost = -0.5	#PR Change
 			}
 			ai_will_do = {
 				factor = 0
