@@ -14,6 +14,11 @@ PR_estate_clergy_exploration_expedition_mod = {
 	local_development_cost = -0.15
 }
 
+PR_estate_clergy_mountain_expedition_mod = {
+	local_development_cost = -0.2
+	supply_limit_modifier = 0.5
+}
+
 PR_LIT_mission_conquer_crimea_reward = {
 	num_accepted_cultures = 1
 }
